@@ -1,0 +1,1095 @@
+/* fileID 147702 */
+/*#587870.1//10.30.15//Web Brooker slifds
+http://zh.td.com/ca/products-services/investing/td-direct-investing/trading-platforms/webbroker/index.jsp
+http://zt.td.com/ca/products-services/investing/td-direct-investing/trading-platforms/webbroker/index.jsp  */
+
+ul.checklist li {
+    line-height: 1.8em;
+    font-size: 13px;
+    width: 330px;
+    background-position: 12px -2px !important;
+}
+
+.td-callout .td-layout-column-first.td-layout-grid4,
+.td-callout .td-layout-column-last.td-layout-grid4 {
+    width: 242px !important;
+}
+
+/*#597851//11.6.15//Main banner Touts
+https://zh.td.com/ca/products-services/investing/td-direct-investing/index.jsp
+https://zt.td.com/ca/products-services/investing/td-direct-investing/index.jsp  */
+
+.td-layout-grid4.td-layout-column.di-custom-ie6-callout-margin {
+    width: 232px !important;
+}
+
+h2.td-copy-black.td-margin-none.di-custom-h2 {
+    font-size: 25px !important;
+}
+
+/* #597865.1 http://zh.tdcanadatrust.com/%E4%BA%A7%E5%93%81-%E6%9C%8D%E5%8A%A1/%E7%90%86%E8%B4%A2%E6%9C%8D%E5%8A%A1/%E7%94%B5%E5%AD%90%E7%90%86%E8%B4%A2%E6%9C%8D%E5%8A%A1/%E7%A7%BB%E5%8A%A8%E5%BA%94%E7%94%A8%E7%A8%8B%E5%BA%8F/3bk9/%E7%A7%BB%E5%8A%A8%E6%8C%87%E6%95%B0.jsp */
+.td-callout.td-callout-tertiary.td-cs-tertiary.td-callout-fauxbgimage.td-margin-top-none.td-margin-bottom-none {
+    height: 227px !important;
+}
+
+
+/*601235.9//11.25.15//CTA
+http://zt.tdcanadatrust.com/m/credit-cards/view-credit-cards.jsp
+http://zh.tdcanadatrust.com/m/credit-cards/view-credit-cards.jsp */
+.td-copy-emphasized {
+    font-size: 13px !important;
+}
+
+h2.td-margin-bottom-large.td-margin-top-none {
+    font-size: 22px;
+}
+
+ul.td-list-inline li {
+    padding: 0 0 0 5px !important;
+    margin: 0 0 0 5px !important;
+}
+
+.td-copy-sub {
+    font-size: 10px !important;
+}
+
+/*6606667//12.09.15//right chevron icon
+https://zt.tdcanadatrust.com/products-services/banking/student-advice/articles.jsp
+https://zh.tdcanadatrust.com/products-services/banking/student-advice/articles.jsp */
+.td-icon-rightCaret:before,
+.td-slider-next>a:before {
+    font-size: 15px;
+}
+
+/*.td-callout .td-layout-column-first.td-layout-grid5, .td-callout .td-layout-column-last.td-layout-grid5 {
+    width: auto !important;
+}*/
+
+.td-layout-column.td-layout-column-first.td-copy-align-left.td-layout-column-last.td-layout-grid5.td-margin-top-small {
+    margin-right: 70px !important;
+}
+
+.td-layout-column.td-layout-column-last.td-layout-grid5.td-margin-top-medium.td-layout-offset1.td-copy-align-left {
+    margin-left: 180px !important;
+}
+
+/* Comment out for 639731
+.td-layout-column.td-layout-grid4.td-layout-column-last {
+    width: auto !important;
+    margin-left: 71px;
+}*/
+
+.td-layout-column.td-padding-top-12.td-layout-column-first.td-layout-grid8.td-layout-column-last {
+    width: 428px !important;
+}
+
+
+/*608549//12.17.15//fix column
+https://zt.td.com/ca/products-services/investing/td-direct-investing/trading-platforms/advanceddashboard.jsp
+https://zh.td.com/ca/products-services/investing/td-direct-investing/trading-platforms/advanceddashboard.jsp */
+/* Comment out for 639731
+.td-layout-column.td-layout-grid4.td-layout-column-last {
+    width: auto !important;
+}*/
+
+.td-layout-column.td-layout-grid4.td-margin-bottom-large {
+    width: 224px !important;
+    margin: 0 20px 0 0 !important;
+}
+
+.td-callout .td-layout-column-first.td-layout-grid6,
+.td-callout .td-layout-column-last.td-layout-grid6 {
+    width: 290px !important;
+}
+
+/*623178//2.23.16//fix column
+https://zt.td.com/ca/products-services/investing-at-td/index.jsp
+https://zt.td.com/ca/products-services/investing-at-td/index.jsp */
+.td-noprint~#td-layout-relatedlinks.td-callout .td-layout-column-first {
+    margin-right: 18px;
+}
+
+
+/*#678301.1//09.21.16// 
+https://zh.td.com/ca/products-services/investing/td-direct-investing/accounts/resp/index.jsp
+*/
+
+div#td-layout-contentarea>div.td-layout-column.td-layout-grid12.td-layout-column-last>div.td-layout-column.td-layout-grid12.td-layout-column-last.td-layout-column-first>div.td-callout.td-callout-primary.td-cs-primary.td-callout-fauxbgimage>div.td-callout-content>div.td-layout-row>div.td-layout-column {
+    clear: both;
+}
+
+/*#693985.1//11.18.16// 
+https://zh.tdcanadatrust.com/%E4%BA%A7%E5%93%81-%E6%9C%8D%E5%8A%A1/%E7%90%86%E8%B4%A2%E6%9C%8D%E5%8A%A1/%E5%AD%A6%E7%94%9F%E5%BB%BA%E8%AE%AE/2gwcp/%E5%AD%A6%E7%94%9F%E7%90%86%E8%B4%A2%E6%9C%8D%E5%8A%A1.jsp
+*/
+
+div.hero-wrapper>div>div.hero>figure>figcaption>div>div:nth-child(2)>p {
+    font-size: 20px !important;
+}
+
+div#packages>div>div.td-container>section>div#readMore>div#articles>div>div.td-row>div>div>div>p.td-copy-emphasized>a>span {
+    font-size: 22px;
+}
+
+/*#693920//11.18.16// 
+https://zh.tdcanadatrust.com/%E8%B4%A2%E5%8A%A1%E8%A7%84%E5%88%92/%E4%BA%BA%E7%94%9F%E5%A4%A7%E4%BA%8B/%E5%8A%A0%E6%8B%BF%E5%A4%A7%E6%96%B0%E5%B1%85%E6%B0%91/%E5%85%B3%E4%BA%8E%E9%81%93%E6%98%8E/2vt7/%E6%8C%87%E6%95%B0.jsp
+*/
+
+.td-callout .td-layout-column-first.td-layout-grid6,
+.td-callout .td-layout-column-last.td-layout-grid6 {
+    width: 326px !important;
+}
+
+/*#693921//11.18.16// 
+https://zh.tdcanadatrust.com/planning/life-events/new-to-canada/about-td/client-stories.jsp
+*/
+
+div#td-layout-contentarea>div>div>p.td-copy-align-centre>nobr {
+    white-space: normal;
+}
+
+/*#693933//11.18.16// 
+http://zh.tdcanadatrust.com/planning/life-events/new-to-canada/products-and-services/chequing-account.jsp
+*/
+
+.td-callout .td-layout-column-first.td-layout-grid4,
+.td-callout .td-layout-column-last.td-layout-grid4 {
+    width: 226px !important;
+}
+
+/*#693912//11.21.16// 
+/*#587870.1//10.30.15//Web Brooker slifds
+http://zh.td.com/ca/products-services/investing/td-direct-investing/trading-platforms/webbroker/index.jsp
+http://zt.td.com/ca/products-services/investing/td-direct-investing/trading-platforms/webbroker/index.jsp  */
+
+ul.checklist li {
+    line-height: 1.8em;
+    font-size: 13px;
+    width: 330px;
+    background-position: 12px -2px !important;
+}
+
+.td-callout .td-layout-column-first.td-layout-grid4,
+.td-callout .td-layout-column-last.td-layout-grid4 {
+    width: 242px !important;
+}
+
+/*#597851//11.6.15//Main banner Touts
+https://zh.td.com/ca/products-services/investing/td-direct-investing/index.jsp
+https://zt.td.com/ca/products-services/investing/td-direct-investing/index.jsp  */
+
+.td-layout-grid4.td-layout-column.di-custom-ie6-callout-margin {
+    width: 232px !important;
+}
+
+h2.td-copy-black.td-margin-none.di-custom-h2 {
+    font-size: 25px !important;
+}
+
+/* #597865.1 http://zh.tdcanadatrust.com/%E4%BA%A7%E5%93%81-%E6%9C%8D%E5%8A%A1/%E7%90%86%E8%B4%A2%E6%9C%8D%E5%8A%A1/%E7%94%B5%E5%AD%90%E7%90%86%E8%B4%A2%E6%9C%8D%E5%8A%A1/%E7%A7%BB%E5%8A%A8%E5%BA%94%E7%94%A8%E7%A8%8B%E5%BA%8F/3bk9/%E7%A7%BB%E5%8A%A8%E6%8C%87%E6%95%B0.jsp */
+.td-callout.td-callout-tertiary.td-cs-tertiary.td-callout-fauxbgimage.td-margin-top-none.td-margin-bottom-none {
+    height: 227px !important;
+}
+
+
+/*601235.9//11.25.15//CTA
+http://zt.tdcanadatrust.com/m/credit-cards/view-credit-cards.jsp
+http://zh.tdcanadatrust.com/m/credit-cards/view-credit-cards.jsp */
+.td-copy-emphasized {
+    font-size: 13px !important;
+}
+
+h2.td-margin-bottom-large.td-margin-top-none {
+    font-size: 22px;
+}
+
+ul.td-list-inline li {
+    padding: 0 0 0 5px !important;
+    margin: 0 0 0 5px !important;
+}
+
+.td-copy-sub {
+    font-size: 10px !important;
+}
+
+/*6606667//12.09.15//right chevron icon
+https://zt.tdcanadatrust.com/products-services/banking/student-advice/articles.jsp
+https://zh.tdcanadatrust.com/products-services/banking/student-advice/articles.jsp */
+.td-icon-rightCaret:before,
+.td-slider-next>a:before {
+    font-size: 15px;
+}
+
+/*.td-callout .td-layout-column-first.td-layout-grid5, .td-callout .td-layout-column-last.td-layout-grid5 {
+    width: auto !important;
+}*/
+
+.td-layout-column.td-layout-column-first.td-copy-align-left.td-layout-column-last.td-layout-grid5.td-margin-top-small {
+    margin-right: 70px !important;
+}
+
+.td-layout-column.td-layout-column-last.td-layout-grid5.td-margin-top-medium.td-layout-offset1.td-copy-align-left {
+    margin-left: 180px !important;
+}
+
+/* Comment out for 639731
+.td-layout-column.td-layout-grid4.td-layout-column-last {
+    width: auto !important;
+    margin-left: 71px;
+}*/
+
+.td-layout-column.td-padding-top-12.td-layout-column-first.td-layout-grid8.td-layout-column-last {
+    width: 428px !important;
+}
+
+
+/*608549//12.17.15//fix column
+https://zt.td.com/ca/products-services/investing/td-direct-investing/trading-platforms/advanceddashboard.jsp
+https://zh.td.com/ca/products-services/investing/td-direct-investing/trading-platforms/advanceddashboard.jsp */
+/* Comment out for 639731
+.td-layout-column.td-layout-grid4.td-layout-column-last {
+    width: auto !important;
+}*/
+
+.td-layout-column.td-layout-grid4.td-margin-bottom-large {
+    width: 224px !important;
+    margin: 0 20px 0 0 !important;
+}
+
+.td-callout .td-layout-column-first.td-layout-grid6,
+.td-callout .td-layout-column-last.td-layout-grid6 {
+    width: 290px !important;
+}
+
+/*623178//2.23.16//fix column
+https://zt.td.com/ca/products-services/investing-at-td/index.jsp
+https://zt.td.com/ca/products-services/investing-at-td/index.jsp */
+.td-noprint~#td-layout-relatedlinks.td-callout .td-layout-column-first {
+    margin-right: 18px;
+}
+
+
+/*#678301.1//09.21.16// 
+https://zh.td.com/ca/products-services/investing/td-direct-investing/accounts/resp/index.jsp
+*/
+
+div#td-layout-contentarea>div.td-layout-column.td-layout-grid12.td-layout-column-last>div.td-layout-column.td-layout-grid12.td-layout-column-last.td-layout-column-first>div.td-callout.td-callout-primary.td-cs-primary.td-callout-fauxbgimage>div.td-callout-content>div.td-layout-row>div.td-layout-column {
+    clear: both;
+}
+
+/*#693985.1//11.18.16// 
+https://zh.tdcanadatrust.com/%E4%BA%A7%E5%93%81-%E6%9C%8D%E5%8A%A1/%E7%90%86%E8%B4%A2%E6%9C%8D%E5%8A%A1/%E5%AD%A6%E7%94%9F%E5%BB%BA%E8%AE%AE/2gwcp/%E5%AD%A6%E7%94%9F%E7%90%86%E8%B4%A2%E6%9C%8D%E5%8A%A1.jsp
+*/
+
+div.hero-wrapper>div>div.hero>figure>figcaption>div>div:nth-child(2)>p {
+    font-size: 20px !important;
+}
+
+div#packages>div>div.td-container>section>div#readMore>div#articles>div>div.td-row>div>div>div>p.td-copy-emphasized>a>span {
+    font-size: 22px;
+}
+
+/*#693920//11.18.16// 
+https://zh.tdcanadatrust.com/%E8%B4%A2%E5%8A%A1%E8%A7%84%E5%88%92/%E4%BA%BA%E7%94%9F%E5%A4%A7%E4%BA%8B/%E5%8A%A0%E6%8B%BF%E5%A4%A7%E6%96%B0%E5%B1%85%E6%B0%91/%E5%85%B3%E4%BA%8E%E9%81%93%E6%98%8E/2vt7/%E6%8C%87%E6%95%B0.jsp
+*/
+
+.td-callout .td-layout-column-first.td-layout-grid6,
+.td-callout .td-layout-column-last.td-layout-grid6 {
+    width: 326px !important;
+}
+
+/*#693921//11.18.16// 
+https://zh.tdcanadatrust.com/planning/life-events/new-to-canada/about-td/client-stories.jsp
+*/
+
+div#td-layout-contentarea>div>div>p.td-copy-align-centre>nobr {
+    white-space: normal;
+}
+
+/*#693933//11.18.16// 
+http://zh.tdcanadatrust.com/planning/life-events/new-to-canada/products-and-services/chequing-account.jsp
+*/
+
+.td-callout .td-layout-column-first.td-layout-grid4,
+.td-callout .td-layout-column-last.td-layout-grid4 {
+    width: 226px !important;
+}
+
+/*#693912//11.21.16// 
+https://zh.tdcanadatrust.com/products-services/banking/credit-cards/getting-started.jsp#setup-travel-notification
+*/
+
+div#td-layout-contentarea>div.td-layout-column.td-layout-grid15.td-layout-column-first.td-layout-column-last>div.td-layout-column.td-layout-grid15>div#travel_notification.td-layout-row.td-callout-equalheight>div.td-layout-column.td-layout-grid13.td-layout-column-first.td-layout-column-last>div.td-callout.td-callout-primary.td-cs-primary>div.td-layout-row.td-margin-top-large>div.td-layout-column.td-layout-grid6.td-layout-column-first.td-margin-top-medium.td-layout-column-last>div.td-layout-row>div.td-layout-column.td-layout-grid4.td-layout-column-last {
+    padding-left: 30px !important;
+    width: 210px !important;
+}
+
+*/ div#td-layout-contentarea>div.td-layout-column.td-layout-grid15.td-layout-column-first.td-layout-column-last>div.td-layout-column.td-layout-grid15>div#travel_notification.td-layout-row.td-callout-equalheight>div.td-layout-column.td-layout-grid13.td-layout-column-first.td-layout-column-last>div.td-callout.td-callout-primary.td-cs-primary>div.td-layout-row.td-margin-top-large>div.td-layout-column.td-layout-grid6.td-layout-column-first.td-margin-top-medium.td-layout-column-last>div.td-layout-row>div.td-layout-column.td-layout-grid4.td-layout-column-last {
+    padding-left: 30px !important;
+    width: 210px !important;
+}
+
+/*#693936//11.21.16// 
+https://zh.tdcanadatrust.com/products-services/banking/accounts/chequing-accounts/index-chequing.jsp
+*/
+
+div#td-layout-contentarea.td-layout-row>div.td-layout-column.td-layout-grid15.td-layout-column-first.td-layout-column-last>div.td-layout-row.td-margin-top-large.td-copy-align-centre>div.td-layout-column.td-layout-grid5.td-callout.td-callout-primary.td-cs-tertiary.td-layout-column-first.td-callout-clickable,
+div#td-layout-contentarea.td-layout-row>div.td-layout-column.td-layout-grid15.td-layout-column-first.td-layout-column-last>div.td-layout-row.td-margin-top-large.td-copy-align-centre>div.td-layout-column.td-layout-grid5.td-callout.td-callout-primary.td-cs-tertiary.td-layout-column-last.td-callout-clickable {
+    min-height: 520px;
+}
+
+div#td-layout-contentarea.td-layout-row>div.td-layout-column.td-layout-grid15.td-layout-column-first.td-layout-column-last>div.td-layout-row.td-margin-top-large.td-copy-align-centre>div.td-layout-column.td-layout-grid5.td-callout.td-callout-primary.td-cs-primary.td-push-up-12.td-callout-clickable {
+    min-height: 550px;
+}
+
+#td-layout-contentarea>div>div.td-layout-row.td-margin-top-large.td-copy-align-centre>div.td-layout-column.td-layout-grid5.td-callout.td-callout-primary.td-cs-tertiary.td-layout-column-first.td-callout-clickable>div.td-callout-content>div.td-floatright>div,
+#td-layout-contentarea>div>div.td-layout-row.td-margin-top-large.td-copy-align-centre>div.td-layout-column.td-layout-grid5.td-callout.td-callout-primary.td-cs-primary.td-push-up-12.td-callout-clickable>div.td-callout-content>div.td-floatright>div {
+    margin-top: -93px !important;
+}
+
+/*#695596.1//11.24.16// 
+https://zh.tdcanadatrust.com/%E4%BA%A7%E5%93%81-%E6%9C%8D%E5%8A%A1/%E7%90%86%E8%B4%A2%E6%9C%8D%E5%8A%A1/%E5%A4%96%E5%B8%81%E6%9C%8D%E5%8A%A1/10a39/%E8%B4%B9%E7%8E%87.jsp
+*/
+
+form#foreignExchangeVO>fieldset>div.formContainer>div.formHolder.frgnExhngClc>div.fieldrow>label[for="rates"] {
+    left: 233px !important;
+}
+
+form#foreignExchangeVO>fieldset>div.formContainer>div.formHolder.frgnExhngClc>div.fieldrow>div.rates-radio1 {
+    width: 250px !important;
+}
+
+form#foreignExchangeVO>fieldset>div.formContainer>div.formHolder.frgnExhngClc>div.fieldrow>div.rates-radio1>input#radiononcash {
+    right: 0px !important;
+}
+
+form#foreignExchangeVO>fieldset>div.formContainer>div.formHolder.frgnExhngClc>div.fieldrow>div.rates-radio1>label[for="radiononcash"] {
+    left: 80px !important;
+}
+
+form#foreignExchangeVO>fieldset>div.formContainer>div.formHolder.frgnExhngClc>div.fieldrow>div.rates-radio2>input#radiocash {
+    right: 142px !important;
+}
+
+/*#717205.7//3.14.17// 
+https://zh.tdcanadatrust.com/%E4%BA%A7%E5%93%81-%E6%9C%8D%E5%8A%A1/%E7%90%86%E8%B4%A2%E6%9C%8D%E5%8A%A1/%E4%BF%A1%E7%94%A8%E5%8D%A1/%E6%9F%A5%E7%9C%8B%E6%89%80%E6%9C%89%E5%8D%A1/2v4hh/Aeroplan%E5%95%86%E5%8A%A1-1.jsp
+*/
+
+.tdCalculatorLB .calculatorArea .calculatorAreaInput .sliderHolder .sliderCaptions .min,
+.tdCalculatorLB .calculatorArea .calculatorAreaInput .sliderHolder .sliderCaptions .max {
+    top: 0px !important;
+}
+
+/*#735617.13//6.19.17// 
+http://zh.tdcanadatrust.com/products-services/banking/credit-cards/view-all-cards/cash-back-visa.jsp
+http://zh.tdcanadatrust.com/products-services/banking/credit-cards/view-all-cards/cash-back-infinite-visa.jsp
+*/
+
+div.calculatorArea>div.calculatorAreaInput.td-margin-bottom-small>div.sliderHolder>div.slidertooltipContaintment.td-margin-top-small {
+    min-height: 36px;
+}
+
+div.calculatorArea>div.calculatorAreaInput.td-margin-bottom-small>div.sliderHolder>div.sliderCaptions>div.min,
+div.calculatorArea>div.calculatorAreaInput.td-margin-bottom-small>div.sliderHolder>div.sliderCaptions>div.max {
+    margin-bottom: -4px;
+    padding-top: 4px;
+}
+
+/*#743481//7.12.17// 
+http://zh.tdcanadatrust.com/%E4%BA%A7%E5%93%81-%E6%9C%8D%E5%8A%A1/%E7%90%86%E8%B4%A2%E6%9C%8D%E5%8A%A1/%E8%B4%A6%E6%88%B7%E7%B1%BB%E5%88%AB/%E8%B4%A6%E6%88%B7%E6%9C%8D%E5%8A%A1/2tm3z/%E9%80%8F%E6%94%AF.jsp */
+div.td-callout.td-layout-grid7 {
+    width: 412px;
+    height: 83px;
+}
+
+/*#749166//8.10.17// 
+https://zh.tdcanadatrust.com/%E4%BA%A7%E5%93%81-%E6%9C%8D%E5%8A%A1/%E5%B0%8F%E5%9E%8B%E5%95%86%E4%B8%9A/%E4%BF%A1%E7%94%A8%E8%B4%B7%E6%AC%BE/jyr1/%E4%B8%AA%E4%BA%BA%E4%BF%A1%E8%B4%B7.jsp
+*/
+
+div.td-callout.td-layout-grid7 {
+    height: auto;
+}
+
+li.td-header-flyout>ul>li>div.td-callout.td-callout-primary.td-cs-tertiary.td-layout-column {
+    width: auto !important;
+}
+
+/*#779792//01.26.18//
+http://zh.tdcanadatrust.com/%E4%BA%A7%E5%93%81-%E6%9C%8D%E5%8A%A1/%E6%8A%95%E8%B5%84/%E5%85%8D%E7%A8%8E%E5%82%A8%E8%93%84%E8%B4%A6%E6%88%B7/t2v/%E5%85%8D%E7%A8%8E.jsp?s_tnt=468314:1:0&
+*/
+
+div#td-layout-contentarea>div.td-layout-column>div.td-layout-row>div.td-layout-row>div.td-layout-column.td-layout-grid12>div.td-callout.td-cs-primary.td-callout-fauxbgimage {
+    min-height: 246px;
+}
+
+/*#783845//03.07.18//
+https://zh.td.com/ca/en/personal-banking/products/insurance/?
+*/
+
+.td-product-service-illustration-grid .td-container>.td-row>div h2 {
+    min-height: 72px;
+}
+
+.catalogue-card-borrowing .td-row .td-product-service>div {
+    min-height: 631px;
+}
+
+
+/*#815690//09.13.18//
+https://zh.td.com/ca/en/personal-banking/products/credit-cards/
+*/
+
+div.td-service-content>div.td-callout>h3.td-service-heading>a>span {
+    font-size: 17px;
+}
+
+/* fileID 147702 */
+/*#587870.1//10.30.15//Web Brooker slifds
+http://zh.td.com/ca/products-services/investing/td-direct-investing/trading-platforms/webbroker/index.jsp
+http://zt.td.com/ca/products-services/investing/td-direct-investing/trading-platforms/webbroker/index.jsp  */
+
+ul.checklist li {
+    line-height: 1.8em;
+    font-size: 13px;
+    width: 330px;
+    background-position: 12px -2px !important;
+}
+
+.td-callout .td-layout-column-first.td-layout-grid4,
+.td-callout .td-layout-column-last.td-layout-grid4 {
+    width: 242px !important;
+}
+
+/*#597851//11.6.15//Main banner Touts
+https://zh.td.com/ca/products-services/investing/td-direct-investing/index.jsp
+https://zt.td.com/ca/products-services/investing/td-direct-investing/index.jsp  */
+
+.td-layout-grid4.td-layout-column.di-custom-ie6-callout-margin {
+    width: 232px !important;
+}
+
+h2.td-copy-black.td-margin-none.di-custom-h2 {
+    font-size: 25px !important;
+}
+
+/* #597865.1 http://zh.tdcanadatrust.com/%E4%BA%A7%E5%93%81-%E6%9C%8D%E5%8A%A1/%E7%90%86%E8%B4%A2%E6%9C%8D%E5%8A%A1/%E7%94%B5%E5%AD%90%E7%90%86%E8%B4%A2%E6%9C%8D%E5%8A%A1/%E7%A7%BB%E5%8A%A8%E5%BA%94%E7%94%A8%E7%A8%8B%E5%BA%8F/3bk9/%E7%A7%BB%E5%8A%A8%E6%8C%87%E6%95%B0.jsp */
+.td-callout.td-callout-tertiary.td-cs-tertiary.td-callout-fauxbgimage.td-margin-top-none.td-margin-bottom-none {
+    height: 227px !important;
+}
+
+
+/*601235.9//11.25.15//CTA
+http://zt.tdcanadatrust.com/m/credit-cards/view-credit-cards.jsp
+http://zh.tdcanadatrust.com/m/credit-cards/view-credit-cards.jsp */
+.td-copy-emphasized {
+    font-size: 13px !important;
+}
+
+h2.td-margin-bottom-large.td-margin-top-none {
+    font-size: 22px;
+}
+
+ul.td-list-inline li {
+    padding: 0 0 0 5px !important;
+    margin: 0 0 0 5px !important;
+}
+
+.td-copy-sub {
+    font-size: 10px !important;
+}
+
+/*6606667//12.09.15//right chevron icon
+https://zt.tdcanadatrust.com/products-services/banking/student-advice/articles.jsp
+https://zh.tdcanadatrust.com/products-services/banking/student-advice/articles.jsp */
+.td-icon-rightCaret:before,
+.td-slider-next>a:before {
+    font-size: 15px;
+}
+
+/*.td-callout .td-layout-column-first.td-layout-grid5, .td-callout .td-layout-column-last.td-layout-grid5 {
+    width: auto !important;
+}*/
+
+.td-layout-column.td-layout-column-first.td-copy-align-left.td-layout-column-last.td-layout-grid5.td-margin-top-small {
+    margin-right: 70px !important;
+}
+
+.td-layout-column.td-layout-column-last.td-layout-grid5.td-margin-top-medium.td-layout-offset1.td-copy-align-left {
+    margin-left: 180px !important;
+}
+
+/* Comment out for 639731
+.td-layout-column.td-layout-grid4.td-layout-column-last {
+    width: auto !important;
+    margin-left: 71px;
+}*/
+
+.td-layout-column.td-padding-top-12.td-layout-column-first.td-layout-grid8.td-layout-column-last {
+    width: 428px !important;
+}
+
+
+/*608549//12.17.15//fix column
+https://zt.td.com/ca/products-services/investing/td-direct-investing/trading-platforms/advanceddashboard.jsp
+https://zh.td.com/ca/products-services/investing/td-direct-investing/trading-platforms/advanceddashboard.jsp */
+/* Comment out for 639731
+.td-layout-column.td-layout-grid4.td-layout-column-last {
+    width: auto !important;
+}*/
+
+.td-layout-column.td-layout-grid4.td-margin-bottom-large {
+    width: 224px !important;
+    margin: 0 20px 0 0 !important;
+}
+
+.td-callout .td-layout-column-first.td-layout-grid6,
+.td-callout .td-layout-column-last.td-layout-grid6 {
+    width: 290px !important;
+}
+
+/*623178//2.23.16//fix column
+https://zt.td.com/ca/products-services/investing-at-td/index.jsp
+https://zt.td.com/ca/products-services/investing-at-td/index.jsp */
+.td-noprint~#td-layout-relatedlinks.td-callout .td-layout-column-first {
+    margin-right: 18px;
+}
+
+
+/*#678301.1//09.21.16// 
+https://zh.td.com/ca/products-services/investing/td-direct-investing/accounts/resp/index.jsp
+*/
+
+div#td-layout-contentarea>div.td-layout-column.td-layout-grid12.td-layout-column-last>div.td-layout-column.td-layout-grid12.td-layout-column-last.td-layout-column-first>div.td-callout.td-callout-primary.td-cs-primary.td-callout-fauxbgimage>div.td-callout-content>div.td-layout-row>div.td-layout-column {
+    clear: both;
+}
+
+/*#693985.1//11.18.16// 
+https://zh.tdcanadatrust.com/%E4%BA%A7%E5%93%81-%E6%9C%8D%E5%8A%A1/%E7%90%86%E8%B4%A2%E6%9C%8D%E5%8A%A1/%E5%AD%A6%E7%94%9F%E5%BB%BA%E8%AE%AE/2gwcp/%E5%AD%A6%E7%94%9F%E7%90%86%E8%B4%A2%E6%9C%8D%E5%8A%A1.jsp
+*/
+
+div.hero-wrapper>div>div.hero>figure>figcaption>div>div:nth-child(2)>p {
+    font-size: 20px !important;
+}
+
+div#packages>div>div.td-container>section>div#readMore>div#articles>div>div.td-row>div>div>div>p.td-copy-emphasized>a>span {
+    font-size: 22px;
+}
+
+/*#693920//11.18.16// 
+https://zh.tdcanadatrust.com/%E8%B4%A2%E5%8A%A1%E8%A7%84%E5%88%92/%E4%BA%BA%E7%94%9F%E5%A4%A7%E4%BA%8B/%E5%8A%A0%E6%8B%BF%E5%A4%A7%E6%96%B0%E5%B1%85%E6%B0%91/%E5%85%B3%E4%BA%8E%E9%81%93%E6%98%8E/2vt7/%E6%8C%87%E6%95%B0.jsp
+*/
+
+.td-callout .td-layout-column-first.td-layout-grid6,
+.td-callout .td-layout-column-last.td-layout-grid6 {
+    width: 326px !important;
+}
+
+/*#693921//11.18.16// 
+https://zh.tdcanadatrust.com/planning/life-events/new-to-canada/about-td/client-stories.jsp
+*/
+
+div#td-layout-contentarea>div>div>p.td-copy-align-centre>nobr {
+    white-space: normal;
+}
+
+/*#693933//11.18.16// 
+http://zh.tdcanadatrust.com/planning/life-events/new-to-canada/products-and-services/chequing-account.jsp
+*/
+
+.td-callout .td-layout-column-first.td-layout-grid4,
+.td-callout .td-layout-column-last.td-layout-grid4 {
+    width: 226px !important;
+}
+
+/*#693912//11.21.16// 
+/*#587870.1//10.30.15//Web Brooker slifds
+http://zh.td.com/ca/products-services/investing/td-direct-investing/trading-platforms/webbroker/index.jsp
+http://zt.td.com/ca/products-services/investing/td-direct-investing/trading-platforms/webbroker/index.jsp  */
+
+ul.checklist li {
+    line-height: 1.8em;
+    font-size: 13px;
+    width: 330px;
+    background-position: 12px -2px !important;
+}
+
+.td-callout .td-layout-column-first.td-layout-grid4,
+.td-callout .td-layout-column-last.td-layout-grid4 {
+    width: 242px !important;
+}
+
+/*#597851//11.6.15//Main banner Touts
+https://zh.td.com/ca/products-services/investing/td-direct-investing/index.jsp
+https://zt.td.com/ca/products-services/investing/td-direct-investing/index.jsp  */
+
+.td-layout-grid4.td-layout-column.di-custom-ie6-callout-margin {
+    width: 232px !important;
+}
+
+h2.td-copy-black.td-margin-none.di-custom-h2 {
+    font-size: 25px !important;
+}
+
+/* #597865.1 http://zh.tdcanadatrust.com/%E4%BA%A7%E5%93%81-%E6%9C%8D%E5%8A%A1/%E7%90%86%E8%B4%A2%E6%9C%8D%E5%8A%A1/%E7%94%B5%E5%AD%90%E7%90%86%E8%B4%A2%E6%9C%8D%E5%8A%A1/%E7%A7%BB%E5%8A%A8%E5%BA%94%E7%94%A8%E7%A8%8B%E5%BA%8F/3bk9/%E7%A7%BB%E5%8A%A8%E6%8C%87%E6%95%B0.jsp */
+.td-callout.td-callout-tertiary.td-cs-tertiary.td-callout-fauxbgimage.td-margin-top-none.td-margin-bottom-none {
+    height: 227px !important;
+}
+
+
+/*601235.9//11.25.15//CTA
+http://zt.tdcanadatrust.com/m/credit-cards/view-credit-cards.jsp
+http://zh.tdcanadatrust.com/m/credit-cards/view-credit-cards.jsp */
+.td-copy-emphasized {
+    font-size: 13px !important;
+}
+
+h2.td-margin-bottom-large.td-margin-top-none {
+    font-size: 22px;
+}
+
+ul.td-list-inline li {
+    padding: 0 0 0 5px !important;
+    margin: 0 0 0 5px !important;
+}
+
+.td-copy-sub {
+    font-size: 10px !important;
+}
+
+/*6606667//12.09.15//right chevron icon
+https://zt.tdcanadatrust.com/products-services/banking/student-advice/articles.jsp
+https://zh.tdcanadatrust.com/products-services/banking/student-advice/articles.jsp */
+.td-icon-rightCaret:before,
+.td-slider-next>a:before {
+    font-size: 15px;
+}
+
+/*.td-callout .td-layout-column-first.td-layout-grid5, .td-callout .td-layout-column-last.td-layout-grid5 {
+    width: auto !important;
+}*/
+
+.td-layout-column.td-layout-column-first.td-copy-align-left.td-layout-column-last.td-layout-grid5.td-margin-top-small {
+    margin-right: 70px !important;
+}
+
+.td-layout-column.td-layout-column-last.td-layout-grid5.td-margin-top-medium.td-layout-offset1.td-copy-align-left {
+    margin-left: 180px !important;
+}
+
+/* Comment out for 639731
+.td-layout-column.td-layout-grid4.td-layout-column-last {
+    width: auto !important;
+    margin-left: 71px;
+}*/
+
+.td-layout-column.td-padding-top-12.td-layout-column-first.td-layout-grid8.td-layout-column-last {
+    width: 428px !important;
+}
+
+
+/*608549//12.17.15//fix column
+https://zt.td.com/ca/products-services/investing/td-direct-investing/trading-platforms/advanceddashboard.jsp
+https://zh.td.com/ca/products-services/investing/td-direct-investing/trading-platforms/advanceddashboard.jsp */
+/* Comment out for 639731
+.td-layout-column.td-layout-grid4.td-layout-column-last {
+    width: auto !important;
+}*/
+
+.td-layout-column.td-layout-grid4.td-margin-bottom-large {
+    width: 224px !important;
+    margin: 0 20px 0 0 !important;
+}
+
+.td-callout .td-layout-column-first.td-layout-grid6,
+.td-callout .td-layout-column-last.td-layout-grid6 {
+    width: 290px !important;
+}
+
+/*623178//2.23.16//fix column
+https://zt.td.com/ca/products-services/investing-at-td/index.jsp
+https://zt.td.com/ca/products-services/investing-at-td/index.jsp */
+.td-noprint~#td-layout-relatedlinks.td-callout .td-layout-column-first {
+    margin-right: 18px;
+}
+
+
+/*#678301.1//09.21.16// 
+https://zh.td.com/ca/products-services/investing/td-direct-investing/accounts/resp/index.jsp
+*/
+
+div#td-layout-contentarea>div.td-layout-column.td-layout-grid12.td-layout-column-last>div.td-layout-column.td-layout-grid12.td-layout-column-last.td-layout-column-first>div.td-callout.td-callout-primary.td-cs-primary.td-callout-fauxbgimage>div.td-callout-content>div.td-layout-row>div.td-layout-column {
+    clear: both;
+}
+
+/*#693985.1//11.18.16// 
+https://zh.tdcanadatrust.com/%E4%BA%A7%E5%93%81-%E6%9C%8D%E5%8A%A1/%E7%90%86%E8%B4%A2%E6%9C%8D%E5%8A%A1/%E5%AD%A6%E7%94%9F%E5%BB%BA%E8%AE%AE/2gwcp/%E5%AD%A6%E7%94%9F%E7%90%86%E8%B4%A2%E6%9C%8D%E5%8A%A1.jsp
+*/
+
+div.hero-wrapper>div>div.hero>figure>figcaption>div>div:nth-child(2)>p {
+    font-size: 20px !important;
+}
+
+div#packages>div>div.td-container>section>div#readMore>div#articles>div>div.td-row>div>div>div>p.td-copy-emphasized>a>span {
+    font-size: 22px;
+}
+
+/*#693920//11.18.16// 
+https://zh.tdcanadatrust.com/%E8%B4%A2%E5%8A%A1%E8%A7%84%E5%88%92/%E4%BA%BA%E7%94%9F%E5%A4%A7%E4%BA%8B/%E5%8A%A0%E6%8B%BF%E5%A4%A7%E6%96%B0%E5%B1%85%E6%B0%91/%E5%85%B3%E4%BA%8E%E9%81%93%E6%98%8E/2vt7/%E6%8C%87%E6%95%B0.jsp
+*/
+
+.td-callout .td-layout-column-first.td-layout-grid6,
+.td-callout .td-layout-column-last.td-layout-grid6 {
+    width: 326px !important;
+}
+
+/*#693921//11.18.16// 
+https://zh.tdcanadatrust.com/planning/life-events/new-to-canada/about-td/client-stories.jsp
+*/
+
+div#td-layout-contentarea>div>div>p.td-copy-align-centre>nobr {
+    white-space: normal;
+}
+
+/*#693933//11.18.16// 
+http://zh.tdcanadatrust.com/planning/life-events/new-to-canada/products-and-services/chequing-account.jsp
+*/
+
+.td-callout .td-layout-column-first.td-layout-grid4,
+.td-callout .td-layout-column-last.td-layout-grid4 {
+    width: 226px !important;
+}
+
+/*#693912//11.21.16// 
+https://zh.tdcanadatrust.com/products-services/banking/credit-cards/getting-started.jsp#setup-travel-notification
+*/
+
+div#td-layout-contentarea>div.td-layout-column.td-layout-grid15.td-layout-column-first.td-layout-column-last>div.td-layout-column.td-layout-grid15>div#travel_notification.td-layout-row.td-callout-equalheight>div.td-layout-column.td-layout-grid13.td-layout-column-first.td-layout-column-last>div.td-callout.td-callout-primary.td-cs-primary>div.td-layout-row.td-margin-top-large>div.td-layout-column.td-layout-grid6.td-layout-column-first.td-margin-top-medium.td-layout-column-last>div.td-layout-row>div.td-layout-column.td-layout-grid4.td-layout-column-last {
+    padding-left: 30px !important;
+    width: 210px !important;
+}
+
+*/ div#td-layout-contentarea>div.td-layout-column.td-layout-grid15.td-layout-column-first.td-layout-column-last>div.td-layout-column.td-layout-grid15>div#travel_notification.td-layout-row.td-callout-equalheight>div.td-layout-column.td-layout-grid13.td-layout-column-first.td-layout-column-last>div.td-callout.td-callout-primary.td-cs-primary>div.td-layout-row.td-margin-top-large>div.td-layout-column.td-layout-grid6.td-layout-column-first.td-margin-top-medium.td-layout-column-last>div.td-layout-row>div.td-layout-column.td-layout-grid4.td-layout-column-last {
+    padding-left: 30px !important;
+    width: 210px !important;
+}
+
+/*#693936//11.21.16// 
+https://zh.tdcanadatrust.com/products-services/banking/accounts/chequing-accounts/index-chequing.jsp
+*/
+
+div#td-layout-contentarea.td-layout-row>div.td-layout-column.td-layout-grid15.td-layout-column-first.td-layout-column-last>div.td-layout-row.td-margin-top-large.td-copy-align-centre>div.td-layout-column.td-layout-grid5.td-callout.td-callout-primary.td-cs-tertiary.td-layout-column-first.td-callout-clickable,
+div#td-layout-contentarea.td-layout-row>div.td-layout-column.td-layout-grid15.td-layout-column-first.td-layout-column-last>div.td-layout-row.td-margin-top-large.td-copy-align-centre>div.td-layout-column.td-layout-grid5.td-callout.td-callout-primary.td-cs-tertiary.td-layout-column-last.td-callout-clickable {
+    min-height: 520px;
+}
+
+div#td-layout-contentarea.td-layout-row>div.td-layout-column.td-layout-grid15.td-layout-column-first.td-layout-column-last>div.td-layout-row.td-margin-top-large.td-copy-align-centre>div.td-layout-column.td-layout-grid5.td-callout.td-callout-primary.td-cs-primary.td-push-up-12.td-callout-clickable {
+    min-height: 550px;
+}
+
+#td-layout-contentarea>div>div.td-layout-row.td-margin-top-large.td-copy-align-centre>div.td-layout-column.td-layout-grid5.td-callout.td-callout-primary.td-cs-tertiary.td-layout-column-first.td-callout-clickable>div.td-callout-content>div.td-floatright>div,
+#td-layout-contentarea>div>div.td-layout-row.td-margin-top-large.td-copy-align-centre>div.td-layout-column.td-layout-grid5.td-callout.td-callout-primary.td-cs-primary.td-push-up-12.td-callout-clickable>div.td-callout-content>div.td-floatright>div {
+    margin-top: -93px !important;
+}
+
+/*#695596.1//11.24.16// 
+https://zh.tdcanadatrust.com/%E4%BA%A7%E5%93%81-%E6%9C%8D%E5%8A%A1/%E7%90%86%E8%B4%A2%E6%9C%8D%E5%8A%A1/%E5%A4%96%E5%B8%81%E6%9C%8D%E5%8A%A1/10a39/%E8%B4%B9%E7%8E%87.jsp
+*/
+
+form#foreignExchangeVO>fieldset>div.formContainer>div.formHolder.frgnExhngClc>div.fieldrow>label[for="rates"] {
+    left: 233px !important;
+}
+
+form#foreignExchangeVO>fieldset>div.formContainer>div.formHolder.frgnExhngClc>div.fieldrow>div.rates-radio1 {
+    width: 250px !important;
+}
+
+form#foreignExchangeVO>fieldset>div.formContainer>div.formHolder.frgnExhngClc>div.fieldrow>div.rates-radio1>input#radiononcash {
+    right: 0px !important;
+}
+
+form#foreignExchangeVO>fieldset>div.formContainer>div.formHolder.frgnExhngClc>div.fieldrow>div.rates-radio1>label[for="radiononcash"] {
+    left: 80px !important;
+}
+
+form#foreignExchangeVO>fieldset>div.formContainer>div.formHolder.frgnExhngClc>div.fieldrow>div.rates-radio2>input#radiocash {
+    right: 142px !important;
+}
+
+/*#717205.7//3.14.17// 
+https://zh.tdcanadatrust.com/%E4%BA%A7%E5%93%81-%E6%9C%8D%E5%8A%A1/%E7%90%86%E8%B4%A2%E6%9C%8D%E5%8A%A1/%E4%BF%A1%E7%94%A8%E5%8D%A1/%E6%9F%A5%E7%9C%8B%E6%89%80%E6%9C%89%E5%8D%A1/2v4hh/Aeroplan%E5%95%86%E5%8A%A1-1.jsp
+*/
+
+.tdCalculatorLB .calculatorArea .calculatorAreaInput .sliderHolder .sliderCaptions .min,
+.tdCalculatorLB .calculatorArea .calculatorAreaInput .sliderHolder .sliderCaptions .max {
+    top: 0px !important;
+}
+
+/*#735617.13//6.19.17// 
+http://zh.tdcanadatrust.com/products-services/banking/credit-cards/view-all-cards/cash-back-visa.jsp
+http://zh.tdcanadatrust.com/products-services/banking/credit-cards/view-all-cards/cash-back-infinite-visa.jsp
+*/
+
+div.calculatorArea>div.calculatorAreaInput.td-margin-bottom-small>div.sliderHolder>div.slidertooltipContaintment.td-margin-top-small {
+    min-height: 36px;
+}
+
+div.calculatorArea>div.calculatorAreaInput.td-margin-bottom-small>div.sliderHolder>div.sliderCaptions>div.min,
+div.calculatorArea>div.calculatorAreaInput.td-margin-bottom-small>div.sliderHolder>div.sliderCaptions>div.max {
+    margin-bottom: -4px;
+    padding-top: 4px;
+}
+
+/*#743481//7.12.17// 
+http://zh.tdcanadatrust.com/%E4%BA%A7%E5%93%81-%E6%9C%8D%E5%8A%A1/%E7%90%86%E8%B4%A2%E6%9C%8D%E5%8A%A1/%E8%B4%A6%E6%88%B7%E7%B1%BB%E5%88%AB/%E8%B4%A6%E6%88%B7%E6%9C%8D%E5%8A%A1/2tm3z/%E9%80%8F%E6%94%AF.jsp */
+div.td-callout.td-layout-grid7 {
+    width: 412px;
+    height: 83px;
+}
+
+/*#749166//8.10.17// 
+https://zh.tdcanadatrust.com/%E4%BA%A7%E5%93%81-%E6%9C%8D%E5%8A%A1/%E5%B0%8F%E5%9E%8B%E5%95%86%E4%B8%9A/%E4%BF%A1%E7%94%A8%E8%B4%B7%E6%AC%BE/jyr1/%E4%B8%AA%E4%BA%BA%E4%BF%A1%E8%B4%B7.jsp
+*/
+
+div.td-callout.td-layout-grid7 {
+    height: auto;
+}
+
+li.td-header-flyout>ul>li>div.td-callout.td-callout-primary.td-cs-tertiary.td-layout-column {
+    width: auto !important;
+}
+
+/*#779792//01.26.18//
+http://zh.tdcanadatrust.com/%E4%BA%A7%E5%93%81-%E6%9C%8D%E5%8A%A1/%E6%8A%95%E8%B5%84/%E5%85%8D%E7%A8%8E%E5%82%A8%E8%93%84%E8%B4%A6%E6%88%B7/t2v/%E5%85%8D%E7%A8%8E.jsp?s_tnt=468314:1:0&
+*/
+
+div#td-layout-contentarea>div.td-layout-column>div.td-layout-row>div.td-layout-row>div.td-layout-column.td-layout-grid12>div.td-callout.td-cs-primary.td-callout-fauxbgimage {
+    min-height: 246px;
+}
+
+/*#783845//03.07.18//
+https://zh.td.com/ca/en/personal-banking/products/insurance/?
+*/
+
+.td-product-service-illustration-grid .td-container>.td-row>div h2 {
+    min-height: 72px;
+}
+
+.catalogue-card-borrowing .td-row .td-product-service>div {
+    min-height: 631px;
+}
+
+
+/*#815690//09.13.18//
+https://zh.td.com/ca/en/personal-banking/products/credit-cards/
+*/
+
+div.td-service-content>div.td-callout>h3.td-service-heading>a>span {
+    white-space: normal;
+    font-size: 17px;
+}
+
+/*832256.2 // 1.16.2019 / RC -font styles added for this language */
+/*833004.2 // 1.18.2019 / RC -font weight impacted*/
+
+input.form-control {
+    font-size: 0.8rem;
+}
+
+body {
+    font-family: "Webly Sleek SemiLight", Helvetica, Tahoma, Arial, "Miscrosoft Yahei", "ÃƒÆ’Ã‚Â¥Ãƒâ€šÃ‚Â¾Ãƒâ€šÃ‚Â®ÃƒÆ’Ã‚Â¨Ãƒâ€šÃ‚Â½Ãƒâ€šÃ‚Â¯ÃƒÆ’Ã‚Â©ÃƒÂ¢Ã¢â€šÂ¬Ã‚ÂºÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¦ÃƒÆ’Ã‚Â©Ãƒâ€šÃ‚Â»ÃƒÂ¢Ã¢â€šÂ¬Ã‹Å“", SimSun, "ÃƒÆ’Ã‚Â¥Ãƒâ€šÃ‚Â®ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¹ÃƒÆ’Ã‚Â¤Ãƒâ€šÃ‚Â½ÃƒÂ¢Ã¢â€šÂ¬Ã…â€œ", STXihei, "ÃƒÆ’Ã‚Â¥Ãƒâ€šÃ‚ÂÃƒâ€¦Ã‚Â½ÃƒÆ’Ã‚Â¦ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Å“ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¡ÃƒÆ’Ã‚Â§Ãƒâ€šÃ‚Â»ÃƒÂ¢Ã¢â€šÂ¬ ÃƒÆ’Ã‚Â©Ãƒâ€šÃ‚Â»ÃƒÂ¢Ã¢â€šÂ¬Ã‹Å“", sans-serif !important;
+    font-weight: 300;
+}
+
+h1 {
+    font-family: "TD Graphik Light", "Webly Sleek SemiLight", Helvetica, Tahoma, Arial, "Miscrosoft Yahei", "ÃƒÆ’Ã‚Â¥Ãƒâ€šÃ‚Â¾Ãƒâ€šÃ‚Â®ÃƒÆ’Ã‚Â¨Ãƒâ€šÃ‚Â½Ãƒâ€šÃ‚Â¯ÃƒÆ’Ã‚Â©ÃƒÂ¢Ã¢â€šÂ¬Ã‚ÂºÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¦ÃƒÆ’Ã‚Â©Ãƒâ€šÃ‚Â»ÃƒÂ¢Ã¢â€šÂ¬Ã‹Å“", SimSun, "ÃƒÆ’Ã‚Â¥Ãƒâ€šÃ‚Â®ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¹ÃƒÆ’Ã‚Â¤Ãƒâ€šÃ‚Â½ÃƒÂ¢Ã¢â€šÂ¬Ã…â€œ", STXihei, "ÃƒÆ’Ã‚Â¥Ãƒâ€šÃ‚ÂÃƒâ€¦Ã‚Â½ÃƒÆ’Ã‚Â¦ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Å“ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¡ÃƒÆ’Ã‚Â§Ãƒâ€šÃ‚Â»ÃƒÂ¢Ã¢â€šÂ¬ ÃƒÆ’Ã‚Â©Ãƒâ€šÃ‚Â»ÃƒÂ¢Ã¢â€šÂ¬Ã‹Å“", sans-serif !important;
+    font-weight: 100;
+}
+
+h2 {
+    font-family: "TD Graphik Light", "Webly Sleek SemiLight", Helvetica, Tahoma, Arial, "Miscrosoft Yahei", "ÃƒÆ’Ã‚Â¥Ãƒâ€šÃ‚Â¾Ãƒâ€šÃ‚Â®ÃƒÆ’Ã‚Â¨Ãƒâ€šÃ‚Â½Ãƒâ€šÃ‚Â¯ÃƒÆ’Ã‚Â©ÃƒÂ¢Ã¢â€šÂ¬Ã‚ÂºÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¦ÃƒÆ’Ã‚Â©Ãƒâ€šÃ‚Â»ÃƒÂ¢Ã¢â€šÂ¬Ã‹Å“", SimSun, "ÃƒÆ’Ã‚Â¥Ãƒâ€šÃ‚Â®ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¹ÃƒÆ’Ã‚Â¤Ãƒâ€šÃ‚Â½ÃƒÂ¢Ã¢â€šÂ¬Ã…â€œ", STXihei, "ÃƒÆ’Ã‚Â¥Ãƒâ€šÃ‚ÂÃƒâ€¦Ã‚Â½ÃƒÆ’Ã‚Â¦ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Å“ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¡ÃƒÆ’Ã‚Â§Ãƒâ€šÃ‚Â»ÃƒÂ¢Ã¢â€šÂ¬ ÃƒÆ’Ã‚Â©Ãƒâ€šÃ‚Â»ÃƒÂ¢Ã¢â€šÂ¬Ã‹Å“", sans-serif !important;
+    font-weight: 100;
+}
+
+.td-header-desktop a {
+    font-family: "TD Graphik SemiLight", Helvetica, Tahoma, Arial, "Miscrosoft Yahei", "ÃƒÆ’Ã‚Â¥Ãƒâ€šÃ‚Â¾Ãƒâ€šÃ‚Â®ÃƒÆ’Ã‚Â¨Ãƒâ€šÃ‚Â½Ãƒâ€šÃ‚Â¯ÃƒÆ’Ã‚Â©ÃƒÂ¢Ã¢â€šÂ¬Ã‚ÂºÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¦ÃƒÆ’Ã‚Â©Ãƒâ€šÃ‚Â»ÃƒÂ¢Ã¢â€šÂ¬Ã‹Å“", SimSun, "ÃƒÆ’Ã‚Â¥Ãƒâ€šÃ‚Â®ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¹ÃƒÆ’Ã‚Â¤Ãƒâ€šÃ‚Â½ÃƒÂ¢Ã¢â€šÂ¬Ã…â€œ", STXihei, "ÃƒÆ’Ã‚Â¥Ãƒâ€šÃ‚ÂÃƒâ€¦Ã‚Â½ÃƒÆ’Ã‚Â¦ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Å“ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¡ÃƒÆ’Ã‚Â§Ãƒâ€šÃ‚Â»ÃƒÂ¢Ã¢â€šÂ¬ ÃƒÆ’Ã‚Â©Ãƒâ€šÃ‚Â»ÃƒÂ¢Ã¢â€šÂ¬Ã‹Å“", sans-serif !important;
+    font-weight: 300;
+}
+
+.td-utility-toggle .td-segments li.active a {
+    font-family: "TD Graphik Medium", Helvetica, Tahoma, Arial, "Miscrosoft Yahei", "ÃƒÆ’Ã‚Â¥Ãƒâ€šÃ‚Â¾Ãƒâ€šÃ‚Â®ÃƒÆ’Ã‚Â¨Ãƒâ€šÃ‚Â½Ãƒâ€šÃ‚Â¯ÃƒÆ’Ã‚Â©ÃƒÂ¢Ã¢â€šÂ¬Ã‚ÂºÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¦ÃƒÆ’Ã‚Â©Ãƒâ€šÃ‚Â»ÃƒÂ¢Ã¢â€šÂ¬Ã‹Å“", SimSun, "ÃƒÆ’Ã‚Â¥Ãƒâ€šÃ‚Â®ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¹ÃƒÆ’Ã‚Â¤Ãƒâ€šÃ‚Â½ÃƒÂ¢Ã¢â€šÂ¬Ã…â€œ", STXihei, "ÃƒÆ’Ã‚Â¥Ãƒâ€šÃ‚ÂÃƒâ€¦Ã‚Â½ÃƒÆ’Ã‚Â¦ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Å“ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¡ÃƒÆ’Ã‚Â§Ãƒâ€šÃ‚Â»ÃƒÂ¢Ã¢â€šÂ¬ ÃƒÆ’Ã‚Â©Ãƒâ€šÃ‚Â»ÃƒÂ¢Ã¢â€šÂ¬Ã‹Å“", sans-serif !important;
+    font-weight: bold;
+}
+
+.td-utility-toggle .td-dropdown-active>.td-dropdown-content>li.active>a {
+    font-family: "TD Graphik Medium", Helvetica, Tahoma, Arial, "Miscrosoft Yahei", "ÃƒÆ’Ã‚Â¥Ãƒâ€šÃ‚Â¾Ãƒâ€šÃ‚Â®ÃƒÆ’Ã‚Â¨Ãƒâ€šÃ‚Â½Ãƒâ€šÃ‚Â¯ÃƒÆ’Ã‚Â©ÃƒÂ¢Ã¢â€šÂ¬Ã‚ÂºÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¦ÃƒÆ’Ã‚Â©Ãƒâ€šÃ‚Â»ÃƒÂ¢Ã¢â€šÂ¬Ã‹Å“", SimSun, "ÃƒÆ’Ã‚Â¥Ãƒâ€šÃ‚Â®ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¹ÃƒÆ’Ã‚Â¤Ãƒâ€šÃ‚Â½ÃƒÂ¢Ã¢â€šÂ¬Ã…â€œ", STXihei, "ÃƒÆ’Ã‚Â¥Ãƒâ€šÃ‚ÂÃƒâ€¦Ã‚Â½ÃƒÆ’Ã‚Â¦ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Å“ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¡ÃƒÆ’Ã‚Â§Ãƒâ€šÃ‚Â»ÃƒÂ¢Ã¢â€šÂ¬ ÃƒÆ’Ã‚Â©Ãƒâ€šÃ‚Â»ÃƒÂ¢Ã¢â€šÂ¬Ã‹Å“", sans-serif !important;
+    font-weight: bold;
+}
+
+.td-nav-primary .td-dropdown-content li>a {
+    font-family: "TD Graphik Medium", Helvetica, Tahoma, Arial, "Miscrosoft Yahei", "ÃƒÆ’Ã‚Â¥Ãƒâ€šÃ‚Â¾Ãƒâ€šÃ‚Â®ÃƒÆ’Ã‚Â¨Ãƒâ€šÃ‚Â½Ãƒâ€šÃ‚Â¯ÃƒÆ’Ã‚Â©ÃƒÂ¢Ã¢â€šÂ¬Ã‚ÂºÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¦ÃƒÆ’Ã‚Â©Ãƒâ€šÃ‚Â»ÃƒÂ¢Ã¢â€šÂ¬Ã‹Å“", SimSun, "ÃƒÆ’Ã‚Â¥Ãƒâ€šÃ‚Â®ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¹ÃƒÆ’Ã‚Â¤Ãƒâ€šÃ‚Â½ÃƒÂ¢Ã¢â€šÂ¬Ã…â€œ", STXihei, "ÃƒÆ’Ã‚Â¥Ãƒâ€šÃ‚ÂÃƒâ€¦Ã‚Â½ÃƒÆ’Ã‚Â¦ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Å“ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¡ÃƒÆ’Ã‚Â§Ãƒâ€šÃ‚Â»ÃƒÂ¢Ã¢â€šÂ¬ ÃƒÆ’Ã‚Â©Ãƒâ€šÃ‚Â»ÃƒÂ¢Ã¢â€šÂ¬Ã‹Å“", sans-serif !important;
+    font-weight: bold;
+}
+
+.td-nav-primary nav>ul>li>a {
+    font-family: "TD Graphik Medium", Helvetica, Tahoma, Arial, "Miscrosoft Yahei", "ÃƒÆ’Ã‚Â¥Ãƒâ€šÃ‚Â¾Ãƒâ€šÃ‚Â®ÃƒÆ’Ã‚Â¨Ãƒâ€šÃ‚Â½Ãƒâ€šÃ‚Â¯ÃƒÆ’Ã‚Â©ÃƒÂ¢Ã¢â€šÂ¬Ã‚ÂºÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¦ÃƒÆ’Ã‚Â©Ãƒâ€šÃ‚Â»ÃƒÂ¢Ã¢â€šÂ¬Ã‹Å“", SimSun, "ÃƒÆ’Ã‚Â¥Ãƒâ€šÃ‚Â®ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¹ÃƒÆ’Ã‚Â¤Ãƒâ€šÃ‚Â½ÃƒÂ¢Ã¢â€šÂ¬Ã…â€œ", STXihei, "ÃƒÆ’Ã‚Â¥Ãƒâ€šÃ‚ÂÃƒâ€¦Ã‚Â½ÃƒÆ’Ã‚Â¦ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Å“ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¡ÃƒÆ’Ã‚Â§Ãƒâ€šÃ‚Â»ÃƒÂ¢Ã¢â€šÂ¬ ÃƒÆ’Ã‚Â©Ãƒâ€šÃ‚Â»ÃƒÂ¢Ã¢â€šÂ¬Ã‹Å“", sans-serif !important;
+    font-weight: bold;
+}
+
+.td-nav-primary .td-quick-access>ul>li>a {
+    font-family: "TD Graphik SemiLight", Helvetica, Tahoma, Arial, "Miscrosoft Yahei", "ÃƒÆ’Ã‚Â¥Ãƒâ€šÃ‚Â¾Ãƒâ€šÃ‚Â®ÃƒÆ’Ã‚Â¨Ãƒâ€šÃ‚Â½Ãƒâ€šÃ‚Â¯ÃƒÆ’Ã‚Â©ÃƒÂ¢Ã¢â€šÂ¬Ã‚ÂºÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¦ÃƒÆ’Ã‚Â©Ãƒâ€šÃ‚Â»ÃƒÂ¢Ã¢â€šÂ¬Ã‹Å“", SimSun, "ÃƒÆ’Ã‚Â¥Ãƒâ€šÃ‚Â®ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¹ÃƒÆ’Ã‚Â¤Ãƒâ€šÃ‚Â½ÃƒÂ¢Ã¢â€šÂ¬Ã…â€œ", STXihei, "ÃƒÆ’Ã‚Â¥Ãƒâ€šÃ‚ÂÃƒâ€¦Ã‚Â½ÃƒÆ’Ã‚Â¦ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Å“ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¡ÃƒÆ’Ã‚Â§Ãƒâ€šÃ‚Â»ÃƒÂ¢Ã¢â€šÂ¬ ÃƒÆ’Ã‚Â©Ãƒâ€šÃ‚Â»ÃƒÂ¢Ã¢â€šÂ¬Ã‹Å“", sans-serif !important;
+    font-weight: 300;
+}
+
+.td-nav-primary .td-quick-access ul>li.profile .td-dropdown-content h3 {
+    font-family: "TD Graphik SemiLight", Helvetica, Tahoma, Arial, "Miscrosoft Yahei", "ÃƒÆ’Ã‚Â¥Ãƒâ€šÃ‚Â¾Ãƒâ€šÃ‚Â®ÃƒÆ’Ã‚Â¨Ãƒâ€šÃ‚Â½Ãƒâ€šÃ‚Â¯ÃƒÆ’Ã‚Â©ÃƒÂ¢Ã¢â€šÂ¬Ã‚ÂºÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¦ÃƒÆ’Ã‚Â©Ãƒâ€šÃ‚Â»ÃƒÂ¢Ã¢â€šÂ¬Ã‹Å“", SimSun, "ÃƒÆ’Ã‚Â¥Ãƒâ€šÃ‚Â®ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¹ÃƒÆ’Ã‚Â¤Ãƒâ€šÃ‚Â½ÃƒÂ¢Ã¢â€šÂ¬Ã…â€œ", STXihei, "ÃƒÆ’Ã‚Â¥Ãƒâ€šÃ‚ÂÃƒâ€¦Ã‚Â½ÃƒÆ’Ã‚Â¦ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Å“ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¡ÃƒÆ’Ã‚Â§Ãƒâ€šÃ‚Â»ÃƒÂ¢Ã¢â€šÂ¬ ÃƒÆ’Ã‚Â©Ãƒâ€šÃ‚Â»ÃƒÂ¢Ã¢â€šÂ¬Ã‹Å“", sans-serif !important;
+    font-weight: 300;
+}
+
+
+.td-nav-primary .td-nav-desktop-search .td-search-box input.td-search-input {
+    font-family: "TD Graphik SemiLight", Helvetica, Tahoma, Arial, "Miscrosoft Yahei", "ÃƒÆ’Ã‚Â¥Ãƒâ€šÃ‚Â¾Ãƒâ€šÃ‚Â®ÃƒÆ’Ã‚Â¨Ãƒâ€šÃ‚Â½Ãƒâ€šÃ‚Â¯ÃƒÆ’Ã‚Â©ÃƒÂ¢Ã¢â€šÂ¬Ã‚ÂºÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¦ÃƒÆ’Ã‚Â©Ãƒâ€šÃ‚Â»ÃƒÂ¢Ã¢â€šÂ¬Ã‹Å“", SimSun, "ÃƒÆ’Ã‚Â¥Ãƒâ€šÃ‚Â®ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¹ÃƒÆ’Ã‚Â¤Ãƒâ€šÃ‚Â½ÃƒÂ¢Ã¢â€šÂ¬Ã…â€œ", STXihei, "ÃƒÆ’Ã‚Â¥Ãƒâ€šÃ‚ÂÃƒâ€¦Ã‚Â½ÃƒÆ’Ã‚Â¦ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Å“ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¡ÃƒÆ’Ã‚Â§Ãƒâ€šÃ‚Â»ÃƒÂ¢Ã¢â€šÂ¬ ÃƒÆ’Ã‚Â©Ãƒâ€šÃ‚Â»ÃƒÂ¢Ã¢â€šÂ¬Ã‹Å“", sans-serif !important;
+    font-weight: 300;
+}
+
+.td-header-mobile {
+    font-family: "TD Graphik SemiLight", Helvetica, Tahoma, Arial, "Miscrosoft Yahei", "ÃƒÆ’Ã‚Â¥Ãƒâ€šÃ‚Â¾Ãƒâ€šÃ‚Â®ÃƒÆ’Ã‚Â¨Ãƒâ€šÃ‚Â½Ãƒâ€šÃ‚Â¯ÃƒÆ’Ã‚Â©ÃƒÂ¢Ã¢â€šÂ¬Ã‚ÂºÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¦ÃƒÆ’Ã‚Â©Ãƒâ€šÃ‚Â»ÃƒÂ¢Ã¢â€šÂ¬Ã‹Å“", SimSun, "ÃƒÆ’Ã‚Â¥Ãƒâ€šÃ‚Â¾Ãƒâ€šÃ‚Â®ÃƒÆ’Ã‚Â¨Ãƒâ€šÃ‚Â½Ãƒâ€šÃ‚Â¯ÃƒÆ’Ã‚Â©ÃƒÂ¢Ã¢â€šÂ¬Ã‚ÂºÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¦ÃƒÆ’Ã‚Â©Ãƒâ€šÃ‚Â»ÃƒÂ¢Ã¢â€šÂ¬Ã‹Å“", STXihei,  "ÃƒÆ’Ã‚Â¥Ãƒâ€šÃ‚Â®ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¹ÃƒÆ’Ã‚Â¤Ãƒâ€šÃ‚Â½ÃƒÂ¢Ã¢â€šÂ¬Ã…â€œ", STXihei, "ÃƒÆ’Ã‚Â¥Ãƒâ€šÃ‚ÂÃƒâ€¦Ã‚Â½ÃƒÆ’Ã‚Â¦ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Å“ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¡ÃƒÆ’Ã‚Â§Ãƒâ€šÃ‚Â»ÃƒÂ¢Ã¢â€šÂ¬ ÃƒÆ’Ã‚Â©Ãƒâ€šÃ‚Â»ÃƒÂ¢Ã¢â€šÂ¬Ã‹Å“", sans-serif !important;
+}
+
+
+/* 944683.38 | 09.21.21 */
+#main>search>div.ng-scope>div>top-search-terms>div>div>div>div>div:nth-child(1),
+#main>search>div.ng-scope>div>top-search-terms>div>div>div>div>div:nth-child(2)>ul>li:nth-child(5),
+#main>search>div.ng-scope>div>top-search-terms>div>div>div>div>div:nth-child(2)>ul>li:nth-child(6) {
+    display: none;
+}
+
+/*#867926.1//10.17.19//*/
+
+div.td-product-service h3[id*="h3-"] a,
+div.td-product-service h3[id*="h3-"] a * {
+    font-size: 18px;
+    line-height: 0;
+    padding-top: 0;
+    white-space: normal !important;
+}
+
+div.td-product-service h3[id*="h3-"]~div.td-row.td-product-info-row div.td-col-xs-12.td-product-image {
+    margin-top: 10px;
+}
+
+/*#889221//4.4.20//*/
+div.td-lazy img[data-src] {
+    opacity: 1;
+}
+
+
+
+/* 903394.1 | 07.23.20 */
+
+section.td-text-with-link div.td-container div.rte div.text-center.so-link-cta div.so-link.rte button.btn.btn-block.td-button-clear-green{
+    min-width: 260px;
+}
+
+section.td-text-with-link div.td-container div.rte div.text-center.so-link-cta div.so-link.rte button.btn.btn-block.td-button-secondary{
+    min-width: 260px;
+}
+
+/* 918838 | 11.20.20 */
+#main > help-centre > div.td-container.help-centre-links > div:nth-child(1) > div:nth-child(2) > ul > a:nth-child(1) > span{
+      white-space: normal;
+}
+
+
+
+/* 920050 | 12.02.20 */
+
+@media(min-width: 1200px){
+section.td-product-description-cta nobr{
+    white-space: normal !important;
+}
+
+section.td-product-description-cta a.td-cta-action{
+    margin-top: 20px;
+}
+
+section.td-product-description-cta div.td-container div.td-cta div.slick-content-copy{
+    min-height: 180px;
+}
+}
+
+
+
+/* 920050 | 12.04.20 */
+
+nobr > section.td-divider + section.td-text-with-link > div.td-container{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+section.td-divider + section.td_rq_tools-swipe.td-product-description-cta{
+    padding-bottom: 30px;
+}
+
+/* 931111 | 3.28.21 */
+@media (min-width: 48em){
+   section.td-columns-divided div.td-callout div.align-bottom {
+     position: initial;
+}
+}
+
+/* 951033.2 | 9/2/2021 */
+#main > question > div > question-input{
+    display: none;
+}
+
+/* 951033.3 | 09.07.21 */
+header.td-header-desktop > div.td-nav-primary > div > div.td-nav-desktop-search > div > header-search-input > form > div{
+    display: none;
+}
+#main > search > div.ng-scope > div > div.td-container.search-popular-help-topics{
+    display: none;
+}
+
+div.td-nav-mobile-menu > div > div.td-nav-mobile-menu-search > header-search-input > form > div{
+    display: none;
+}
+
+#main > search > div.ng-scope > div > top-result > section > div > div > div{
+    display: none;
+}
+
+/* 951033.4 | 09.16.21 */
+#main > search > div.ng-scope > div > div.popular-searches{
+    display: none;
+}
+
+/* 944683.38 | 09.21.21 */
+#main > search > div.ng-scope > div > top-search-terms > div > div > div > div > div:nth-child(1),
+#main > search > div.ng-scope > div > top-search-terms > div > div > div > div > div:nth-child(2) > ul > li:nth-child(5),
+#main > search > div.ng-scope > div > top-search-terms > div > div > div > div > div:nth-child(2) > ul > li:nth-child(6){
+    display: none;
+}
+
+#main > search > div.ng-scope > div > top-search-terms > div > div > div > div > div:nth-child(3) > ul > li:nth-child(3),
+#main > search > div.ng-scope > div > top-search-terms > div > div > div > div > div:nth-child(3) > ul > li:nth-child(2){
+    display: none;
+}
+
+/* 956496.1 | 10.18.21 */
+body > div.td_rq_tooltip > div > section.td_rq_equal_height_row.td-service-description.ready > div > div.td-row > div > div > div:nth-child(2) > div:nth-child(2) > div > div > div.td-callout > h3 > a > span,
+body > div.td_rq_tooltip > div > section.td_rq_equal_height_row.td-service-description.ready > div > div.td-row > div > div > div:nth-child(1) > div:nth-child(2) > div > div > div.td-callout > h3 > a > span{
+    white-space: normal;
+}
+
+body > div.td_rq_tooltip > div > section.td_rq_equal_height_row.td-service-description.ready > div > div.td-row > div > div > div:nth-child(2) > div:nth-child(2) > div > div > div.td-callout > div > p{
+    font-size: 15px;
+}
+
+/* 981576.1 | 04.28.22 */
+#cmp-questions__chat{
+    display: none;
+}
+
+/* 981576.7 | 05.03.22 */
+#cmp-search-best-answer__popular-questions{
+    display: none;
+}

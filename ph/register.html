@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+<title>Register – TD bank</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+<meta name="renderer" content="webkit">
+
+
+<link rel="shortcut icon" href="http://www.nowtdloan.com/assets/img/favicon.ico">
+
+<link href="static/css/frontend.css" rel="stylesheet">
+
+<!-- HTML5 shim, for IE6-8 support of HTML5 elements. All other JS at the end of file. -->
+<!--[if lt IE 9]>
+<script src="/assets/js/html5shiv.js"></script>
+<script src="/assets/js/respond.min.js"></script>
+<![endif]-->
+<script type="text/javascript">
+    var require = {
+        config: {"site":{"name":"TD bank","cdnurl":"","version":1670665209,"timezone":"Asia\/Shanghai","languages":{"backend":"zh-cn","frontend":"zh-cn"}},"upload":{"cdnurl":"","uploadurl":"\/index\/ajax\/upload","bucket":"local","maxsize":"10mb","mimetype":"jpg,png,bmp,jpeg,gif,webp,zip,rar,xls,xlsx,wav,mp4,mp3,webm,pdf","chunking":false,"chunksize":2097152,"savekey":"\/uploads\/{year}{mon}{day}\/{filemd5}{.suffix}","multipart":[],"multiple":false,"fullmode":false,"thumbstyle":"","storage":"local"},"modulename":"index","controllername":"user","actionname":"register","jsname":"frontend\/user","moduleurl":"\/index","language":"en","__PUBLIC__":"\/","__ROOT__":"\/","__CDN__":""}    }
+    ;
+</script>
+
+    <link href="static/css/user.css" rel="stylesheet">
+</head>
+
+<body>
+
+<nav class="navbar navbar-white navbar-fixed-top" role="navigation">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#header-navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="index.html">
+                <img src="static/picture/td-logo.png" width="36" height="32" alt="">
+            </a>
+        </div>
+        <div class="collapse navbar-collapse" id="header-navbar">
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="index.html">首页</a></li>
+                <!--<li class="dropdown">
+                                        <a href="login.html" class="dropdown-toggle" data-toggle="dropdown">会员中心                        <b class="caret"></b></a>
+                                        <ul class="dropdown-menu">
+                                                <li><a href="login1.html"><i class="fa fa-sign-in fa-fw"></i> Sign In</a></li>
+                        <li><a href=""><i class="fa fa-user-o fa-fw"></i> 注 册</a></li>
+                        
+                    </ul>
+                </li>-->
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<main class="content">
+    <div id="content-container" class="container">
+    <div class="user-section login-section">
+        <div class="logon-tab clearfix"><a href="javascript:;">Sign
+            in</a> <a class="active">注 册</a></div>
+        <div class="login-main">
+            <form name="form1" id="register-form" class="form-vertical" method="POST" action="">
+                <!--@IndexRegisterFormBegin-->
+                <input type="hidden" name="invite_user_id" value="0">
+                <input type="hidden" name="url" value="">
+                <input type="hidden" name="__token__" value="001ae7ff7de91ea5e2c72eb3c98cf93d">                <div class="form-group">
+                    <label class="control-label">Mobile</label>
+                    <div class="controls">
+                        <input type="text" id="mobile" name="mobile" data-rule="required;mobile" class="form-control" placeholder="Mobile">
+                        <p class="help-block"></p>
+                    </div>
+                </div>
+
+                <!--@CaptchaBegin-->
+                                <div class="form-group">
+                    <label class="control-label">Captcha</label>
+                    <div class="controls">
+                        <div class="input-group">
+                            <!--@formatter:off-->
+<input type="text" name="captcha" class="form-control" data-rule="required;length(4);digits;remote(/api/validate/check_sms_correct.html, event=register, mobile:#mobile)">
+<span class="input-group-btn" style="padding:0;border:none;">
+        <a href="javascript:;" class="btn btn-info btn-captcha" data-url="/api/sms/send.html" data-type="mobile" data-event="register">Send SMS</a>
+    </span>
+<!--@formatter:on-->
+
+                        </div>
+                        <p class="help-block"></p>
+                    </div>
+                </div>
+                                <!--@CaptchaEnd-->
+
+                <div class="form-group">
+                    <button type="submit" class="btn btn-primary btn-lg btn-block" style="color: #038203;
+                                    background-color: transparent;
+                                    border-color: #008a00;
+    border-width: 2px;">注 册                    </button>
+                </div>
+                <!--@IndexRegisterFormEnd-->
+            </form>
+        </div>
+    </div>
+</div>
+
+</main>
+
+<footer class="footer" style="clear:both">
+    <p class="copyright">Copyright&nbsp;©&nbsp;2022 TD bank All Rights Reserved <a href="javascript:;" target="_blank"></a></p>
+</footer>
+
+<script src="static/js/require.js" data-main="/assets/js/require-frontend.js?v=1670665209"></script>
+
+
+<div id="think_page_trace" style="position: fixed;bottom:0;right:0;font-size:14px;width:100%;z-index: 999999;color: #000;text-align:left;font-family:'微软雅黑';">
+    <div id="think_page_trace_tab" style="display: none;background:white;margin:0;height: 250px;">
+        <div id="think_page_trace_tab_tit" style="height:30px;padding: 6px 12px 0;border-bottom:1px solid #ececec;border-top:1px solid #ececec;font-size:16px">
+                        <span style="color:#000;padding-right:12px;height:30px;line-height:30px;display:inline-block;margin-right:3px;cursor:pointer;font-weight:700">基本</span>
+                        <span style="color:#000;padding-right:12px;height:30px;line-height:30px;display:inline-block;margin-right:3px;cursor:pointer;font-weight:700">文件</span>
+                        <span style="color:#000;padding-right:12px;height:30px;line-height:30px;display:inline-block;margin-right:3px;cursor:pointer;font-weight:700">流程</span>
+                        <span style="color:#000;padding-right:12px;height:30px;line-height:30px;display:inline-block;margin-right:3px;cursor:pointer;font-weight:700">错误</span>
+                        <span style="color:#000;padding-right:12px;height:30px;line-height:30px;display:inline-block;margin-right:3px;cursor:pointer;font-weight:700">SQL</span>
+                        <span style="color:#000;padding-right:12px;height:30px;line-height:30px;display:inline-block;margin-right:3px;cursor:pointer;font-weight:700">调试</span>
+                    </div>
+        <div id="think_page_trace_tab_cont" style="overflow:auto;height:212px;padding:0;line-height: 24px">
+                        <div style="display:none;">
+                <ol style="padding: 0; margin:0">
+                    <li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">请求信息 : 2022-12-10 17:40:09 HTTP/1.1 GET : www.nowtdloan.com/index/user/register.html</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">运行时间 : 0.051314s [ 吞吐率：19.49req/s ] 内存消耗：3,175.96kb 文件加载：128</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">查询信息 : 0 queries 0 writes </li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">缓存信息 : 0 reads,1 writes</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">配置加载 : 74</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">会话信息 : SESSION_ID=aev2rsaqkdk10074cj5jor9e3p</li>                </ol>
+            </div>
+                        <div style="display:none;">
+                <ol style="padding: 0; margin:0">
+                    <li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/loan/public/index.php ( 0.88 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/loan/thinkphp/start.php ( 0.72 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/loan/thinkphp/base.php ( 2.60 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/loan/thinkphp/library/think/Loader.php ( 21.07 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/loan/vendor/composer/autoload_static.php ( 17.14 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/loan/vendor/symfony/polyfill-php80/bootstrap.php ( 1.50 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/loan/vendor/symfony/polyfill-mbstring/bootstrap.php ( 7.07 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/loan/vendor/symfony/polyfill-intl-normalizer/bootstrap.php ( 0.71 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/loan/vendor/symfony/polyfill-php72/bootstrap.php ( 1.89 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/loan/vendor/symfony/polyfill-intl-idn/bootstrap.php ( 4.52 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/loan/vendor/ralouphie/getallheaders/src/getallheaders.php ( 1.60 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/loan/vendor/guzzlehttp/promises/src/functions_include.php ( 0.16 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/loan/vendor/guzzlehttp/promises/src/functions.php ( 9.89 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/loan/vendor/guzzlehttp/psr7/src/functions_include.php ( 0.15 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/loan/vendor/guzzlehttp/psr7/src/functions.php ( 13.09 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/loan/vendor/guzzlehttp/guzzle/src/functions_include.php ( 0.16 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/loan/vendor/guzzlehttp/guzzle/src/functions.php ( 9.70 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/loan/vendor/symfony/polyfill-php73/bootstrap.php ( 0.99 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/loan/vendor/markbaker/complex/classes/src/functions/abs.php ( 0.81 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/loan/vendor/markbaker/complex/classes/src/functions/acos.php ( 1.04 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/loan/vendor/markbaker/complex/classes/src/functions/acosh.php ( 0.90 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/loan/vendor/markbaker/complex/classes/src/functions/acot.php ( 0.74 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/loan/vendor/markbaker/complex/classes/src/functions/acoth.php ( 0.76 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/loan/vendor/markbaker/complex/classes/src/functions/acsc.php ( 0.83 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/loan/vendor/markbaker/complex/classes/src/functions/acsch.php ( 0.86 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/loan/vendor/markbaker/complex/classes/src/functions/argument.php ( 0.81 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/loan/vendor/markbaker/complex/classes/src/functions/asec.php ( 0.83 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/loan/vendor/markbaker/complex/classes/src/functions/asech.php ( 0.85 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/loan/vendor/markbaker/complex/classes/src/functions/asin.php ( 1.01 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/loan/vendor/markbaker/complex/classes/src/functions/asinh.php ( 0.91 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/loan/vendor/markbaker/complex/classes/src/functions/atan.php ( 1.34 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/loan/vendor/markbaker/complex/classes/src/functions/atanh.php ( 1.08 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/loan/vendor/markbaker/complex/classes/src/functions/conjugate.php ( 0.74 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/loan/vendor/markbaker/complex/classes/src/functions/cos.php ( 0.92 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/loan/vendor/markbaker/complex/classes/src/functions/cosh.php ( 0.90 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/loan/vendor/markbaker/complex/classes/src/functions/cot.php ( 0.83 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/loan/vendor/markbaker/complex/classes/src/functions/coth.php ( 0.74 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/loan/vendor/markbaker/complex/classes/src/functions/csc.php ( 0.82 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/loan/vendor/markbaker/complex/classes/src/functions/csch.php ( 0.84 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/loan/vendor/markbaker/complex/classes/src/functions/exp.php ( 0.92 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/loan/vendor/markbaker/complex/classes/src/functions/inverse.php ( 0.87 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/loan/vendor/markbaker/complex/classes/src/functions/ln.php ( 0.94 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/loan/vendor/markbaker/complex/classes/src/functions/log2.php ( 1.06 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/loan/vendor/markbaker/complex/classes/src/functions/log10.php ( 1.08 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/loan/vendor/markbaker/complex/classes/src/functions/negative.php ( 0.76 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/loan/vendor/markbaker/complex/classes/src/functions/pow.php ( 1.27 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/loan/vendor/markbaker/complex/classes/src/functions/rho.php ( 0.84 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/loan/vendor/markbaker/complex/classes/src/functions/sec.php ( 0.71 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/loan/vendor/markbaker/complex/classes/src/functions/sech.php ( 0.74 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/loan/vendor/markbaker/complex/classes/src/functions/sin.php ( 0.87 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/loan/vendor/markbaker/complex/classes/src/functions/sinh.php ( 0.90 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/loan/vendor/markbaker/complex/classes/src/functions/sqrt.php ( 0.81 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/loan/vendor/markbaker/complex/classes/src/functions/tan.php ( 1.21 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/loan/vendor/markbaker/complex/classes/src/functions/tanh.php ( 1.11 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/loan/vendor/markbaker/complex/classes/src/functions/theta.php ( 1.25 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/loan/vendor/markbaker/complex/classes/src/operations/add.php ( 1.26 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/loan/vendor/markbaker/complex/classes/src/operations/subtract.php ( 1.28 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/loan/vendor/markbaker/complex/classes/src/operations/multiply.php ( 1.41 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/loan/vendor/markbaker/complex/classes/src/operations/divideby.php ( 1.75 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/loan/vendor/markbaker/complex/classes/src/operations/divideinto.php ( 1.75 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/loan/vendor/markbaker/matrix/classes/src/Functions/adjoint.php ( 0.69 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/loan/vendor/markbaker/matrix/classes/src/Functions/antidiagonal.php ( 0.74 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/loan/vendor/markbaker/matrix/classes/src/Functions/cofactors.php ( 0.70 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/loan/vendor/markbaker/matrix/classes/src/Functions/determinant.php ( 0.71 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/loan/vendor/markbaker/matrix/classes/src/Functions/diagonal.php ( 0.70 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/loan/vendor/markbaker/matrix/classes/src/Functions/identity.php ( 0.70 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/loan/vendor/markbaker/matrix/classes/src/Functions/inverse.php ( 0.69 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/loan/vendor/markbaker/matrix/classes/src/Functions/minors.php ( 0.69 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/loan/vendor/markbaker/matrix/classes/src/Functions/trace.php ( 0.69 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/loan/vendor/markbaker/matrix/classes/src/Functions/transpose.php ( 0.71 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/loan/vendor/markbaker/matrix/classes/src/Operations/add.php ( 0.93 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/loan/vendor/markbaker/matrix/classes/src/Operations/directsum.php ( 0.95 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/loan/vendor/markbaker/matrix/classes/src/Operations/subtract.php ( 0.96 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/loan/vendor/markbaker/matrix/classes/src/Operations/multiply.php ( 0.98 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/loan/vendor/markbaker/matrix/classes/src/Operations/divideby.php ( 0.96 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/loan/vendor/markbaker/matrix/classes/src/Operations/divideinto.php ( 1.00 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/loan/vendor/topthink/think-helper/src/helper.php ( 2.88 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/loan/vendor/karsonzhang/fastadmin-addons/src/common.php ( 15.07 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/loan/thinkphp/library/think/Route.php ( 60.23 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/loan/thinkphp/library/think/Config.php ( 6.38 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/loan/thinkphp/library/think/Hook.php ( 4.71 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/loan/vendor/overtrue/wechat/src/Kernel/Support/Helpers.php ( 2.63 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/loan/vendor/overtrue/wechat/src/Kernel/Helpers.php ( 1.89 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/loan/vendor/topthink/think-captcha/src/helper.php ( 1.59 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/loan/thinkphp/library/think/Validate.php ( 41.63 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/loan/vendor/topthink/think-queue/src/common.php ( 1.19 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/loan/thinkphp/library/think/Console.php ( 23.13 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/loan/thinkphp/library/think/Error.php ( 3.75 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/loan/thinkphp/convention.php ( 10.37 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/loan/thinkphp/library/think/App.php ( 21.51 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/loan/thinkphp/library/think/Request.php ( 49.78 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/loan/application/config.php ( 11.81 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/loan/thinkphp/library/think/Env.php ( 1.21 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/loan/application/database.php ( 2.20 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/loan/application/extra/addons.php ( 0.12 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/loan/application/extra/site.php ( 0.91 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/loan/application/extra/upload.php ( 0.82 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/loan/application/tags.php ( 1.23 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/loan/application/common.php ( 16.45 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/loan/thinkphp/helper.php ( 17.30 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/loan/thinkphp/library/think/Debug.php ( 7.13 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/loan/thinkphp/library/think/Log.php ( 6.05 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/loan/thinkphp/library/think/Cache.php ( 6.10 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/loan/thinkphp/library/think/cache/driver/File.php ( 7.27 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/loan/thinkphp/library/think/cache/Driver.php ( 5.98 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/loan/application/common/behavior/Common.php ( 3.02 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/loan/thinkphp/library/think/Lang.php ( 7.23 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/loan/thinkphp/lang/zh-cn.php ( 11.81 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/loan/application/index/lang/zh-cn.php ( 10.79 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/loan/extend/fast/Form.php ( 39.71 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/loan/application/index/controller/User.php ( 22.93 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/loan/application/common/controller/Frontend.php ( 5.09 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/loan/thinkphp/library/think/Controller.php ( 6.07 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/loan/thinkphp/library/traits/controller/Jump.php ( 4.90 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/loan/thinkphp/library/think/View.php ( 6.77 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/loan/thinkphp/library/think/view/driver/Think.php ( 5.64 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/loan/thinkphp/library/think/Template.php ( 44.90 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/loan/thinkphp/library/think/template/driver/File.php ( 2.24 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/loan/application/common/library/Auth.php ( 16.07 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/loan/thinkphp/library/think/Cookie.php ( 7.54 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/loan/application/common/model/Config.php ( 6.79 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/loan/thinkphp/library/think/Model.php ( 69.14 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/loan/thinkphp/library/think/Url.php ( 12.72 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/loan/application/index/lang/en/user.php ( 2.88 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/loan/runtime/temp/229b749c7ed2ba4a47a0af3d2522582b.php ( 9.44 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/loan/thinkphp/library/think/Session.php ( 10.86 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/loan/thinkphp/library/think/Response.php ( 8.28 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/loan/thinkphp/library/think/debug/Html.php ( 4.17 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/loan/thinkphp/library/think/Db.php ( 6.67 KB )</li>                </ol>
+            </div>
+                        <div style="display:none;">
+                <ol style="padding: 0; margin:0">
+                    <li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">[ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000037s ]</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">[ CACHE ] INIT File</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">[ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001475s ]</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">[ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.001051s ]</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">[ LANG ] /www/wwwroot/loan/thinkphp/lang/zh-cn.php</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">[ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000042s ]</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">[ ROUTE ] array (
+  'type' =&gt; 'module',
+  'module' =&gt; 
+  array (
+    0 =&gt; 'index',
+    1 =&gt; 'user',
+    2 =&gt; 'register',
+  ),
+)</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">[ HEADER ] array (
+  'accept-encoding' =&gt; 'gzip, deflate',
+  'host' =&gt; 'www.nowtdloan.com',
+  'accept-language' =&gt; 'zh-CN,zh;q=0.9,en;q=0.8',
+  'referer' =&gt; 'http://www.nowtdloan.com/index/user/register.html',
+  'accept' =&gt; '*/*',
+  'user-agent' =&gt; 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.93 Safari/537.36',
+  'content-length' =&gt; '',
+  'content-type' =&gt; '',
+)</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">[ PARAM ] array (
+)</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">[ LANG ] /www/wwwroot/loan/public/../application/index/lang/zh-cn.php</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">[ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002191s ]</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">[ LANG ] /www/wwwroot/loan/public/../application/index/lang/en/user.php</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">[ RUN ] app\index\controller\User-&gt;register[ /www/wwwroot/loan/application/index/controller/User.php ]</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">[ VIEW ] /www/wwwroot/loan/public/../application/index/view/user/register.html [ array (
+  0 =&gt; 'user',
+  1 =&gt; 'site',
+  2 =&gt; 'config',
+  3 =&gt; 'captchaType',
+  4 =&gt; 'url',
+  5 =&gt; 'title',
+) ]</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">[ SESSION ] INIT array (
+  'id' =&gt; '',
+  'var_session_id' =&gt; '',
+  'prefix' =&gt; 'think',
+  'type' =&gt; '',
+  'auto_start' =&gt; true,
+)</li>                </ol>
+            </div>
+                        <div style="display:none;">
+                <ol style="padding: 0; margin:0">
+                                    </ol>
+            </div>
+                        <div style="display:none;">
+                <ol style="padding: 0; margin:0">
+                                    </ol>
+            </div>
+                        <div style="display:none;">
+                <ol style="padding: 0; margin:0">
+                                    </ol>
+            </div>
+                    </div>
+    </div>
+    <div id="think_page_trace_close" style="display:none;text-align:right;height:15px;position:absolute;top:10px;right:12px;cursor:pointer;"><img style="vertical-align:top;" src="data:image/gif;base64,R0lGODlhDwAPAJEAAAAAAAMDA////wAAACH/C1hNUCBEYXRhWE1QPD94cGFja2V0IGJlZ2luPSLvu78iIGlkPSJXNU0wTXBDZWhpSHpyZVN6TlRjemtjOWQiPz4gPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iQWRvYmUgWE1QIENvcmUgNS4wLWMwNjAgNjEuMTM0Nzc3LCAyMDEwLzAyLzEyLTE3OjMyOjAwICAgICAgICAiPiA8cmRmOlJERiB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiPiA8cmRmOkRlc2NyaXB0aW9uIHJkZjphYm91dD0iIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtbG5zOnhtcE1NPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvbW0vIiB4bWxuczpzdFJlZj0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL3NUeXBlL1Jlc291cmNlUmVmIyIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IFdpbmRvd3MiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6MUQxMjc1MUJCQUJDMTFFMTk0OUVGRjc3QzU4RURFNkEiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6MUQxMjc1MUNCQUJDMTFFMTk0OUVGRjc3QzU4RURFNkEiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDoxRDEyNzUxOUJBQkMxMUUxOTQ5RUZGNzdDNThFREU2QSIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDoxRDEyNzUxQUJBQkMxMUUxOTQ5RUZGNzdDNThFREU2QSIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PgH//v38+/r5+Pf29fTz8vHw7+7t7Ovq6ejn5uXk4+Lh4N/e3dzb2tnY19bV1NPS0dDPzs3My8rJyMfGxcTDwsHAv769vLu6ubi3trW0s7KxsK+urayrqqmop6alpKOioaCfnp2cm5qZmJeWlZSTkpGQj46NjIuKiYiHhoWEg4KBgH9+fXx7enl4d3Z1dHNycXBvbm1sa2ppaGdmZWRjYmFgX15dXFtaWVhXVlVUU1JRUE9OTUxLSklIR0ZFRENCQUA/Pj08Ozo5ODc2NTQzMjEwLy4tLCsqKSgnJiUkIyIhIB8eHRwbGhkYFxYVFBMSERAPDg0MCwoJCAcGBQQDAgEAACH5BAAAAAAALAAAAAAPAA8AAAIdjI6JZqotoJPR1fnsgRR3C2jZl3Ai9aWZZooV+RQAOw=="></div>
+</div>
+
+
+<script type="text/javascript">
+    (function(){
+        var tab_tit  = document.getElementById('think_page_trace_tab_tit').getElementsByTagName('span');
+        var tab_cont = document.getElementById('think_page_trace_tab_cont').getElementsByTagName('div');
+        var open     = document.getElementById('think_page_trace_open');
+        var close    = document.getElementById('think_page_trace_close').children[0];
+        var trace    = document.getElementById('think_page_trace_tab');
+        var cookie   = document.cookie.match(/thinkphp_show_page_trace=(\d\|\d)/);
+        var history  = (cookie && typeof cookie[1] != 'undefined' && cookie[1].split('|')) || [0,0];
+       /* open.onclick = function(){
+            trace.style.display = 'block';
+            this.style.display = 'none';
+            close.parentNode.style.display = 'block';
+            history[0] = 1;
+            document.cookie = 'thinkphp_show_page_trace='+history.join('|')
+        }*/
+        close.onclick = function(){
+            trace.style.display = 'none';
+            this.parentNode.style.display = 'none';
+            open.style.display = 'block';
+            history[0] = 0;
+            document.cookie = 'thinkphp_show_page_trace='+history.join('|')
+        }
+        for(var i = 0; i < tab_tit.length; i++){
+            tab_tit[i].onclick = (function(i){
+                return function(){
+                    for(var j = 0; j < tab_cont.length; j++){
+                        tab_cont[j].style.display = 'none';
+                        tab_tit[j].style.color = '#999';
+                    }
+                    tab_cont[i].style.display = 'block';
+                    tab_tit[i].style.color = '#000';
+                    history[1] = i;
+                    document.cookie = 'thinkphp_show_page_trace='+history.join('|')
+                }
+            })(i)
+        }
+        parseInt(history[0]) && open.click();
+        tab_tit[history[1]].click();
+    })();
+</script>
+</body>
+
+</html>

